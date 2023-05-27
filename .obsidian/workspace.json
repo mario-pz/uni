@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "557d013552090b9e",
+        "id": "07d87aae78e4c404",
         "type": "tabs",
         "children": [
           {
-            "id": "86aed887439338ff",
+            "id": "39801bef4d907d8e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -141,11 +141,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "86aed887439338ff",
+  "active": "39801bef4d907d8e",
   "lastOpenFiles": [
+    "decentralized_systems/README.md",
     "README.md",
     "ERASMUS+/README.md",
-    "decentralized_systems/README.md",
     "ERASMUS+",
     "template/assets/README.md",
     "template/exam/Notes.md",
