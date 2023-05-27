@@ -1,1 +1,0 @@
-If I find any good epubs for the specific course I will put them here

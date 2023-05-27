@@ -1,6 +1,7 @@
+## Starting off
 
 ## Grading
 
-## Books
+## References
 
 ## Tips
