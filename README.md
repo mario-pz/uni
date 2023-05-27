@@ -1,11 +1,11 @@
 # Obsidian vault
 
-__University notes must be freely available, ensuring equitable access and promoting a culture of knowledge sharing.__
+> University notes must be freely available,
+> ensuring equitable access and promoting a culture of knowledge sharing.
 
 # Instructions 
 
-* Install newest version of Obsidian 
-** https://obsidian.md/download
+* Install newest version of Obsidian at https://obsidian.md/download
 
 * Clone the project
 ```
