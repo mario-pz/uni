@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "decentralized_systems/BOOKS.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "085237cf612d59ee",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "decentralized_systems/presentations/DS_L1.pdf"
               }
             }
           }
@@ -86,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "decentralized_systems/BOOKS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "decentralized_systems/BOOKS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "decentralized_systems/BOOKS.md"
               }
             }
           }
@@ -149,13 +159,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d48a3594a0f6a4f5",
+  "active": "69b7a6a4ace8d044",
   "lastOpenFiles": [
+    "template/BOOKS.md",
+    "decentralized_systems/BOOKS.md",
+    "decentralized_systems/README.md",
+    "template/books",
+    "decentralized_systems/presentations/DS_L1.pdf",
+    "README.md",
     "ERASMUS.md",
     "decentralized_systems/assets/README.md",
-    "README.md",
     "decentralized_systems/notes/l_1.md",
-    "decentralized_systems/presentations/DS_L1.pdf",
     "decentralized_systems/presentations/DS_L7.pdf",
     "decentralized_systems/presentations/DS_L10.pdf",
     "template/assets/README.md",
@@ -171,7 +185,6 @@
     "template/tasks/task_1",
     "template/tasks",
     "template/notes",
-    "template/exam",
     "operating_systems_1/tasks/task_1/README.md",
     "operating_systems_1/notes/l_1.md",
     "operating_systems_1/diagrams/README.md",
@@ -192,8 +205,6 @@
     "decentralized_systems (copy)/notes/l_1.md",
     "decentralized_systems (copy)/diagrams/README.md",
     "decentralized_systems/presentations/README.md",
-    "decentralized_systems/exam/Notes.md",
-    "decentralized_systems/tasks/task_1/README.md",
     "decentralized_systems/assets/Pasted image 20230527212357.png",
     "decentralized_systems/assets/sync_n_async.png"
   ]
