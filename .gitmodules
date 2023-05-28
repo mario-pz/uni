@@ -1,3 +1,6 @@
 [submodule "databases/2/task/darknet-eshop-demo"]
 	path = databases/2/task/darknet-eshop-demo
 	url = https://github.com/mario-pz/darknet-eshop-demo
+[submodule "object_oriented/exercises/diamond_chase"]
+	path = object_oriented/exercises/diamond_chase
+	url = git@github.com:mario-pz/diamond-chase.git
