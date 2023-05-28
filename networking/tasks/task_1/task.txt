@@ -1,0 +1,322 @@
+/*
+Εργαστήριο Δίκτυα ΙΙ / OSPF / 2023
+
+Ονοματεπώνυμο: Μάριος Παπάζογλου
+ΑΜ: 21390179
+
+Τμήμα: ΤA
+*/
+
+Ερώτημα 1) Δρομολογήθηκαν και οι 5 routers και παρακάτω παραθέτω ένα παράδειγμα. Oι εντολές που εκτέλεσα είναι για την δρομολόγηση του R2. 
+
+Router>enable
+Router#conf term
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#int fa0/0
+Router(config-if)#no shut
+
+Router(config-if)#
+%LINK-5-CHANGED: Interface FastEthernet0/0, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to up
+
+Router(config-if)#ip add 173.17.37.2 255.255.255.0
+Router(config-if)#end
+Router#
+%SYS-5-CONFIG_I: Configured from console by console
+
+Router#enable
+Router#conf term 
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#int fa1/0
+Router(config-if)#no shut
+
+Router(config-if)#
+%LINK-5-CHANGED: Interface FastEthernet1/0, changed state to up
+
+Router(config-if)#ip add 173.17.39.1 255.255.255.0
+Router(config-if)#end
+Router#
+%SYS-5-CONFIG_I: Configured from console by console
+
+Router#enable
+Router#conf term 
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#int fa0/1
+Router(config-if)#no shut
+
+Router(config-if)#
+%LINK-5-CHANGED: Interface FastEthernet0/1, changed state to up
+
+Router(config-if)#ip add 172.16.32.1 255.255.255.0 
+Router(config-if)#end
+Router#
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+OSPF configuration για τον R1:
+Router>enable 
+Router#conf term
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#router ospf 20	
+Router(config-router)#router-id 1.1.1.1
+Router(config-router)#network 173.17.37.0 0.0.0.255 area 0
+Router(config-router)#network 173.17.38.0 0.0.0.255 area 0
+
+OSPF configuration για τον R2:
+Router>enable
+Router#conf term
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#router ospf 20
+Router(config-router)#router-id 2.2.2.2
+Router(config-router)#network 173.17.37.0 0.0.0.255 area 0 	
+Router(config-router)#network 173.17.39.0 0.0.0.255 area 0
+Router(config-router)#network 172.16.32.0 0.0.0.255 area 10
+Router(config-router)#
+01:47:54: %OSPF-5-ADJCHG: Process 20, Nbr 2.0.0.3 on FastEthernet1/0 from LOADING to FULL, Loading Done
+
+
+OSPF configuration για τον R3:
+Router>enable
+Router#conf term 
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#router ospf 20
+Router(config-router)#router-id 3.3.3.3
+Router(config-router)#network 173.17.38.0 0.0.0.255 area 0
+Router(config-router)#network 173.17.39.0 0.0.0.255 area 0
+Router(config-router)#network 174.18.30.0 0.0.0.255 area 20
+
+OSPF configuration για τον R4:
+Router#conf term 
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#router ospf 20
+Router(config-router)#router-id 4.4.4.4
+Router(config-router)#network 172.16.32.0 0.0.0.255 area 10
+Router(config-router)#network 172.16.33.0 0.0.0.255 area 10
+Router(config-router)#network 172.16.34.0 0.0.0.255 area 10 
+
+
+
+OSPF configuration για τον R5:
+Router#conf term
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#router ospf 20
+Router(config-router)#router-id 5.5.5.5
+Router(config-router)#network 174.18.30.0 0.0.0.255 area 20
+Router(config-router)#network 174.18.31.0 0.0.0.255 area 20
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Ερώτημα 2)
+Passive interface για τον R4:
+Router(config)#router ospf 20
+Router(config-router)#passive-interface f0/1
+Router(config-router)#
+
+Passive interface για τον R5:
+Router#conf term
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#router ospf 20
+Router(config-router)#passive-interface f0/1
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Ερώτημα 3)
+Δύο είναι οι ABR, ο R2 και ο R3. 
+
+Για τον R2: 
+Router#conf term
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#router ospf 20
+Router(config-router)#area 10 range 172.16.32.0 255.255.254.0
+Router(config-router)#area 0 range 173.17.36.0 255.255.254.0
+
+
+Για τον R3: 
+Router>enable
+Router#conf term
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#router ospf 20
+Router(config-router)#area 0 range 173.17.36.0 255.255.254.0 
+Router(config-router)#area 20 range 174.18.30.0 255.255.254.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Ερώτημα 4)
+Οι σχέσεις γειτνίασης για τον R1:
+R1#show ip ospf neighbor
+
+
+Neighbor ID     Pri   State           Dead Time   Address         Interface
+2.2.2.2           1   FULL/DROTHER    00:00:31    173.17.37.2     FastEthernet0/0
+3.3.3.3           1   FULL/DR         00:00:35    173.17.38.2     FastEthernet0/1
+
+Οι σχέσεις γειτνίασης για τον R2:
+R2#show ip ospf neighbor
+
+
+Neighbor ID     Pri   State           Dead Time   Address         Interface
+4.4.4.4           1   FULL/DR         00:00:31    172.16.32.2     FastEthernet0/1
+1.1.1.1           1   FULL/DROTHER    00:00:32    173.17.37.1     FastEthernet0/0
+3.3.3.3           1   FULL/DR         00:00:32    173.17.39.2     FastEthernet1/0
+
+
+Οι σχέσεις γειτνίασης για τον R4:
+R4#show ip ospf neighbor
+
+
+Neighbor ID     Pri   State           Dead Time   Address         Interface
+2.2.2.2           1   FULL/BDR        00:00:38    172.16.32.1     FastEthernet0/0
+
+Παρατηρώ ποιοί routers είναι designated routers (DR) και ποιοί είναι backup designated routers (BDR).
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Ερώτημα 5)
+****
+Σημείωση: στα μέσα της άσκησης είχα κάνει κάτι λάθος και προσπάθηκα να κάνω clear το ospf process και τα έκανα όλα απο την αρχή με καινούργια ids. Όμως στο 
+database υπάρχουν και τα παλαιά και δεν ήξερα πως να το φτιάξω. 
+****
+
+Παρατηρώ 3 LSA types και στους 3 δρομολογητές. 
+Το LSA type 1 έχει πληροφορίες για γείτονες δρομολογητές, ip/prefix πληροφορία για τα Interface, το είδος του δικτύου αλλά και IP/prefix πληροφορία.
+Το LSA type 2 έχει πληροφορίες IP/prefix για τους δρομολογητές που βρίσκονται σε ενα multi access δίκτυο και εκπέμπουν μόνο απο τους designated routers. 
+Το LSA type 3 περιέχει lsa type 1 πληροφορία την οποία εισάγει ένας ABR από μια περιοχή σε μια άλλη. 
+
+Για τον R1:
+R1#show ip ospf database
+            OSPF Router with ID (1.1.1.1) (Process ID 20)
+
+                Router Link States (Area 0)
+
+Link ID         ADV Router      Age         Seq#       Checksum Link count
+2.0.0.2         2.0.0.2         2951        0x80000008 0x007e04 2
+2.2.2.2         2.2.2.2         902         0x8000000c 0x005c32 2
+3.3.3.3         3.3.3.3         212         0x80000004 0x00503b 2
+1.1.1.1         1.1.1.1         212         0x80000008 0x006738 2
+
+                Net Link States (Area 0)
+Link ID         ADV Router      Age         Seq#       Checksum
+173.17.37.1     1.1.1.1         1190        0x80000002 0x00825b
+173.17.37.2     2.2.2.2         1190        0x80000003 0x0074c3
+173.17.39.2     3.3.3.3         912         0x80000001 0x00a2ce
+173.17.38.2     3.3.3.3         212         0x80000002 0x0099db
+
+                Summary Net Link States (Area 0)
+Link ID         ADV Router      Age         Seq#       Checksum
+172.16.32.0     2.0.0.2         2907        0x8000002b 0x003f14
+172.16.34.0     2.0.0.2         2907        0x8000002a 0x00a869
+172.16.32.0     2.2.2.2         788         0x80000048 0x00e150
+172.16.34.0     2.2.2.2         788         0x8000004a 0x004aa3
+174.18.30.0     3.3.3.3         784         0x8000000d 0x001e49
+
+Ο R1 έχει LSA type 1, 2 και 3 για το area 0. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Για τον R2:
+R2#show ip ospf database
+            OSPF Router with ID (2.2.2.2) (Process ID 20)
+
+                Router Link States (Area 0)
+
+Link ID         ADV Router      Age         Seq#       Checksum Link count
+2.0.0.2         2.0.0.2         3121        0x80000008 0x007e04 2
+2.2.2.2         2.2.2.2         1072        0x8000000c 0x005c32 2
+3.3.3.3         3.3.3.3         382         0x80000004 0x00503b 2
+1.1.1.1         1.1.1.1         382         0x80000008 0x006738 2
+
+                Net Link States (Area 0)
+Link ID         ADV Router      Age         Seq#       Checksum
+173.17.37.1     1.1.1.1         1360        0x80000002 0x00825b
+173.17.37.2     2.2.2.2         1360        0x80000003 0x0074c3
+173.17.39.2     3.3.3.3         1082        0x80000001 0x00a2ce
+173.17.38.2     3.3.3.3         382         0x80000002 0x0099db
+
+                Summary Net Link States (Area 0)
+Link ID         ADV Router      Age         Seq#       Checksum
+172.16.32.0     2.0.0.2         3077        0x8000002b 0x003f14
+172.16.34.0     2.0.0.2         3077        0x8000002a 0x00a869
+172.16.32.0     2.2.2.2         959         0x80000048 0x00e150
+172.16.34.0     2.2.2.2         959         0x8000004a 0x004aa3
+174.18.30.0     3.3.3.3         954         0x8000000d 0x001e49
+
+                Router Link States (Area 10)
+
+Link ID         ADV Router      Age         Seq#       Checksum Link count
+2.0.0.4         2.0.0.4         1346        0x8000000a 0x00e87c 3
+2.0.0.2         2.0.0.2         3087        0x80000008 0x00dea9 1
+2.2.2.2         2.2.2.2         969         0x8000000d 0x0088f2 1
+4.4.4.4         4.4.4.4         969         0x8000000c 0x003618 3
+
+                Net Link States (Area 10)
+Link ID         ADV Router      Age         Seq#       Checksum
+172.16.32.2     4.4.4.4         969         0x80000003 0x0060aa
+
+                Summary Net Link States (Area 10)
+Link ID         ADV Router      Age         Seq#       Checksum
+173.17.36.0     2.0.0.2         3092        0x8000003e 0x00bf7d
+173.17.36.0     2.2.2.2         1077        0x80000059 0x0075a6
+174.18.30.0     2.2.2.2         377         0x800000a5 0x0015bc
+
+Ο R2 έχει LSA type 1, 2, και 3 για το area 0 και area 10.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Για τον R4:
+R4#show ip ospf database
+            OSPF Router with ID (4.4.4.4) (Process ID 20)
+
+                Router Link States (Area 10)
+
+Link ID         ADV Router      Age         Seq#       Checksum Link count
+2.2.2.2         2.2.2.2         1029        0x8000000d 0x0088f2 1
+2.0.0.4         2.0.0.4         1406        0x8000000a 0x00e87c 3
+2.0.0.2         2.0.0.2         3147        0x80000008 0x00dea9 1
+4.4.4.4         4.4.4.4         1029        0x8000000c 0x003618 3
+
+                Net Link States (Area 10)
+Link ID         ADV Router      Age         Seq#       Checksum
+172.16.32.2     4.4.4.4         1029        0x80000003 0x0060aa
+
+                Summary Net Link States (Area 10)
+Link ID         ADV Router      Age         Seq#       Checksum
+173.17.36.0     2.0.0.2         3152        0x8000003e 0x00bf7d
+173.17.36.0     2.2.2.2         1137        0x80000059 0x0075a6
+174.18.30.0     2.2.2.2         437         0x800000a5 0x0015bc
+
+Ο R2 έχει LSA type 1, 2, και 3 για το area 10.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Ερώτηση 6)
+Πίνακας δρομολόγησης του R1: 
+R1#show ip route
+Codes: C - connected, S - static, I - IGRP, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP
+       i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia - IS-IS inter area
+       * - candidate default, U - per-user static route, o - ODR
+       P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     172.16.0.0/24 is subnetted, 2 subnets
+O IA    172.16.32.0 [110/3] via 173.17.38.2, 00:08:47, FastEthernet0/1
+O IA    172.16.34.0 [110/67] via 173.17.38.2, 00:08:47, FastEthernet0/1
+     173.17.0.0/24 is subnetted, 3 subnets
+C       173.17.37.0 is directly connected, FastEthernet0/0
+C       173.17.38.0 is directly connected, FastEthernet0/1
+O       173.17.39.0 [110/2] via 173.17.38.2, 00:08:47, FastEthernet0/1
+     174.18.0.0/24 is subnetted, 1 subnets
+O IA    174.18.30.0 [110/2] via 173.17.38.2, 00:08:47, FastEthernet0/1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Πίνακας δρομολόγησης του R3: 
+R3#show ip route
+Codes: C - connected, S - static, I - IGRP, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP
+       i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia - IS-IS inter area
+       * - candidate default, U - per-user static route, o - ODR
+       P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     172.16.0.0/24 is subnetted, 2 subnets
+O IA    172.16.32.0 [110/2] via 173.17.39.1, 00:02:18, FastEthernet1/0
+O IA    172.16.34.0 [110/66] via 173.17.39.1, 00:32:29, FastEthernet1/0
+     173.17.0.0/24 is subnetted, 3 subnets
+O       173.17.37.0 [110/2] via 173.17.39.1, 00:34:20, FastEthernet1/0
+C       173.17.38.0 is directly connected, FastEthernet0/0
+C       173.17.39.0 is directly connected, FastEthernet1/0
+     174.18.0.0/24 is subnetted, 2 subnets
+C       174.18.30.0 is directly connected, FastEthernet0/1
+O       174.18.31.0 [110/2] via 174.18.30.2, 00:30:40, FastEthernet0/1
+-------------------------------------------------------------------------------------------------------------------------------------------------------
