@@ -4,3 +4,6 @@
 [submodule "object_oriented/exercises/diamond_chase"]
 	path = object_oriented/exercises/diamond_chase
 	url = git@github.com:mario-pz/diamond-chase.git
+[submodule "object_oriented/tasks/diamond_chase"]
+	path = object_oriented/tasks/diamond_chase
+	url = git@github.com:mario-pz/diamond-chase.git
