@@ -1,0 +1,3 @@
+[submodule "databases/2/task/darknet-eshop-demo"]
+	path = databases/2/task/darknet-eshop-demo
+	url = https://github.com/mario-pz/darknet-eshop-demo
