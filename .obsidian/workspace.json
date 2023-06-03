@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "erasmus_plus/README.md",
+                "file": "digital_design/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "erasmus_plus/README.md",
+                "file": "digital_design/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "erasmus_plus/README.md",
+                "file": "digital_design/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "erasmus_plus/README.md"
+                "file": "digital_design/README.md"
               }
             }
           }
@@ -151,51 +151,50 @@
   },
   "active": "90fd89cfa71c7a7a",
   "lastOpenFiles": [
-    "programming/tasks/task_3/README.md",
-    "programming/tasks/task_2/README.md",
-    "programming/tasks/task_6/new.c",
-    "programming/tasks/task_6/file.txt",
-    "programming/tasks/task_6",
-    "programming/tasks/task_5/C1.c",
-    "programming/tasks/task_5",
-    "programming/tasks/task_4/task.docx",
-    "programming/tasks/task_4/C5.c",
-    "programming/tasks/task_4/C4.c",
-    "programming/tasks/task_4/C3.c",
-    "programming/tasks/task_4",
-    "programming/tasks/task_1/README.md",
-    "programming/notes/l_1.md",
-    "programming/exam/Notes.md",
-    "programming/presentations/README.md",
-    "programming/assets/README.md",
-    "programming/README.md",
-    "databases/tasks/2/ER_MODEL_NEW.png",
-    "databases/tasks/2/eshop_demo/app/static/background.gif",
-    "databases/tasks/2/eshop_demo/README.md",
-    "databases/tasks/2/task/darknet-eshop-demo/app/static/background.gif",
-    "databases/tasks/2/task/darknet-eshop-demo/README.md",
-    "databases/tasks/2/task/ER_MODEL_NEW.png",
-    "databases/tasks/1/model_02.png",
-    "databases/tasks/1/model_01.png",
-    "databases/tasks/task_1/README.md",
-    "databases/notes/l_1.md",
-    "databases/presentations/README.md",
-    "databases/exam/Notes.md",
-    "databases/assets/README.md",
-    "databases/README.md",
-    "db/2/task/darknet-eshop-demo/app/static/background.gif",
-    "db/2/task/darknet-eshop-demo/README.md",
-    "db/2/task/ER_MODEL_NEW.png",
-    "db/1/model_02.png",
-    "db/1/model_01.png",
-    "template/exam/Notes.md",
-    "ai/exam/Notes.md",
-    "ai/tasks/task_1/README.md",
-    "ai/presentations/README.md",
-    "ai/notes/l_1.md",
-    "ai/assets/README.md",
-    "ai/README.md",
-    "object_oriented/tasks/diamond_chase/README.md",
-    "object_oriented/exercises/diamond_chase/README.md"
+    "digital_design/assets/Pasted image 20230401092612.png",
+    "decentralized_systems/presentations/README.md",
+    "decentralized_systems/presentations/DS_L10.pdf",
+    "template/presentations/README.md",
+    "digital_design/tasks/task_2/task-2.docx",
+    "digital_design/tasks/task_5/task-5.docx",
+    "digital_design/tasks/task_4/task-4.docx",
+    "digital_design/tasks/task_3/task-3.docx",
+    "digital_design/tasks/task_1/task-1.docx",
+    "digital_design/tasks/task_1/README.md",
+    "digital_design/tasks/task_5",
+    "digital_design/tasks/task_4",
+    "digital_design/tasks/task_3",
+    "digital_design/tasks/task_2",
+    "digital_design/presentations/README.md",
+    "digital_design/exam/Notes.md",
+    "digital_design/exam/Exam.md",
+    "digital_design/notes/l_1.md",
+    "digital_design/assets/README.md",
+    "digital_design/README.md",
+    "digital-design/exam/Notes.md",
+    "digital-design/Notes.md",
+    "digital-design/notes/Notes.md",
+    "dd/Exam.md",
+    "digital-design/exam/Exam.md",
+    "cloud_computing/notes/Notes.md",
+    "dd/Notes.md",
+    "cloud_computing/Notes.md",
+    "dd/diagrams/Untitled.md",
+    "digital_design/assets/Pasted image 20230401092946.png",
+    "digital_design/assets/Pasted image 20230401095043.png",
+    "dd/assets/Studying/Calculus.png",
+    "digital_design/assets/Pasted image 20230401092947.png",
+    "erasmus_plus/README.md",
+    "digital-design/tasks/task_1/README.md",
+    "digital-design/presentations/README.md",
+    "digital-design/notes/l_1.md",
+    "digital-design/assets/README.md",
+    "digital-design/README.md",
+    "digital_design/assets/Screenshot 2023-03-25 at 9.09.45 PM.png",
+    "digital_design/assets/Screenshot 2023-03-25 at 9.09.08 PM.png",
+    "digital_design/assets/Screenshot 2023-03-25 at 9.08.49 PM.png",
+    "digital_design/assets/Screenshot 2023-03-25 at 9.05.34 PM.png",
+    "digital_design/assets/Screenshot 2023-03-25 at 9.05.06 PM.png",
+    "digital-design/Exam.md"
   ]
 }
