@@ -4,33 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "045afcfc366e3008",
+        "id": "26bded385043293c",
         "type": "tabs",
         "children": [
           {
-            "id": "a3f0c606f77e7313",
+            "id": "46432d1fca2e3b52",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "networking/assets/Pasted image 20230130170450.png"
-              }
-            }
-          },
-          {
-            "id": "397ab656700bbf1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cloud_computing/exam/Notes.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -162,6 +147,23 @@
   },
   "active": "69b7a6a4ace8d044",
   "lastOpenFiles": [
+    "intro_to_it/exam/VMS-Guide-Based-Edition.png",
+    "intro_to_it/VMS-Guide-Based-Edition.png",
+    "intro_to_it/tasks/task_1/README.md",
+    "intro_to_it/tasks/task_1",
+    "intro_to_it/tasks",
+    "intro_to_it/presentations/README.md",
+    "intro_to_it/presentations",
+    "intro_to_it/notes/l_1.md",
+    "intro_to_it/notes",
+    "intro_to_it/exam/Notes.md",
+    "intro_to_it/exam",
+    "intro_to_it/assets/README.md",
+    "intro_to_it/assets",
+    "intro_to_it/README.md",
+    "intro_to_it",
+    "iit/VMS-Guide-Based-Edition.png",
+    "iit",
     "cloud_computing/exam/Notes.md",
     "cloud_computing/exam/Notes.md",
     "cloud_computing/notes/l_1.md",
@@ -186,27 +188,10 @@
     "networking/notes/Network Layer.md",
     "networking/notes/OSPF.md",
     "networking/presentations/README.md",
-    "programming/presentations/README.md",
-    "template/presentations/README.md",
-    "decentralized_systems/exam/Notes.md",
-    "decentralized_systems/presentations/README.md",
-    "decentralized_systems/tasks/task_1/README.md",
-    "digital_design/README.md",
     "digital_design/assets/Pasted image 20230401092612.png",
     "decentralized_systems/presentations/DS_L10.pdf",
-    "digital_design/tasks/task_2/task-2.docx",
-    "digital_design/tasks/task_5/task-5.docx",
-    "digital_design/tasks/task_4/task-4.docx",
-    "digital_design/tasks/task_3/task-3.docx",
-    "digital_design/tasks/task_1/task-1.docx",
-    "digital_design/tasks/task_1/README.md",
-    "digital_design/tasks/task_5",
-    "digital_design/tasks/task_4",
-    "digital_design/tasks/task_3",
     "digital_design/assets/Pasted image 20230401092946.png",
     "digital_design/assets/Pasted image 20230401095043.png",
-    "dd/assets/Studying/Calculus.png",
-    "digital_design/assets/Pasted image 20230401092947.png",
-    "digital_design/assets/Screenshot 2023-03-25 at 9.09.45 PM.png"
+    "dd/assets/Studying/Calculus.png"
   ]
 }
