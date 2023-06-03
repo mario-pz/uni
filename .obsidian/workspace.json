@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c1ea09e9b21ef730",
+        "id": "26bded385043293c",
         "type": "tabs",
         "children": [
           {
-            "id": "90fd89cfa71c7a7a",
+            "id": "46432d1fca2e3b52",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "decentralized_systems/exam/Notes.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "decentralized_systems/exam/Notes.md",
+                "file": "cloud_computing/exam/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "decentralized_systems/exam/Notes.md",
+                "file": "cloud_computing/exam/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "decentralized_systems/exam/Notes.md"
+                "file": "cloud_computing/exam/Notes.md"
               }
             }
           }
@@ -149,53 +145,53 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "90fd89cfa71c7a7a",
+  "active": "69b7a6a4ace8d044",
   "lastOpenFiles": [
-    "decentralized_systems/notes/l_1.md",
-    "decentralized_systems/presentations/README.md",
-    "decentralized_systems/tasks/task_1/README.md",
-    "digital_design/README.md",
-    "digital_design/assets/Pasted image 20230401092612.png",
-    "decentralized_systems/presentations/DS_L10.pdf",
-    "template/presentations/README.md",
-    "digital_design/tasks/task_2/task-2.docx",
-    "digital_design/tasks/task_5/task-5.docx",
-    "digital_design/tasks/task_4/task-4.docx",
-    "digital_design/tasks/task_3/task-3.docx",
-    "digital_design/tasks/task_1/task-1.docx",
-    "digital_design/tasks/task_1/README.md",
-    "digital_design/tasks/task_5",
-    "digital_design/tasks/task_4",
-    "digital_design/tasks/task_3",
-    "digital_design/tasks/task_2",
-    "digital_design/presentations/README.md",
-    "digital_design/exam/Notes.md",
-    "digital_design/exam/Exam.md",
-    "digital_design/notes/l_1.md",
-    "digital_design/assets/README.md",
-    "digital-design/exam/Notes.md",
-    "digital-design/Notes.md",
-    "digital-design/notes/Notes.md",
-    "dd/Exam.md",
-    "digital-design/exam/Exam.md",
-    "cloud_computing/notes/Notes.md",
-    "dd/Notes.md",
-    "cloud_computing/Notes.md",
-    "dd/diagrams/Untitled.md",
-    "digital_design/assets/Pasted image 20230401092946.png",
-    "digital_design/assets/Pasted image 20230401095043.png",
-    "dd/assets/Studying/Calculus.png",
-    "digital_design/assets/Pasted image 20230401092947.png",
-    "erasmus_plus/README.md",
-    "digital-design/tasks/task_1/README.md",
-    "digital-design/presentations/README.md",
-    "digital-design/notes/l_1.md",
-    "digital-design/assets/README.md",
-    "digital-design/README.md",
-    "digital_design/assets/Screenshot 2023-03-25 at 9.09.45 PM.png",
-    "digital_design/assets/Screenshot 2023-03-25 at 9.09.08 PM.png",
-    "digital_design/assets/Screenshot 2023-03-25 at 9.08.49 PM.png",
-    "digital_design/assets/Screenshot 2023-03-25 at 9.05.34 PM.png",
-    "digital_design/assets/Screenshot 2023-03-25 at 9.05.06 PM.png"
+    "ai/tasks/task_1/main.py",
+    "ai/tasks/task_1/README.md",
+    "ai/tasks/task_1",
+    "ai/tasks",
+    "ai/presentations/README.md",
+    "ai/presentations",
+    "ai/notes/l_1.md",
+    "ai/notes",
+    "ai/exam/Notes.md",
+    "ai/exam",
+    "ai/assets/README.md",
+    "ai/assets",
+    "ai/README.md",
+    "ai",
+    "digital_design/presentations/ΨΗΦ_ΣΧΕΔ_11c.pdf",
+    "digital_design/presentations/ΨΗΦ_ΣΧΕΔ_10c.pdf",
+    "digital_design/presentations/ΨΗΦ_ΣΧΕΔ_09c.pdf",
+    "operating_systems/notes/PCS and SCS.md",
+    "operating_systems/notes/Notes.md",
+    "operating_systems/notes/DEADLOCKS.md",
+    "operating_systems/notes/CPU SCHEDULING.md",
+    "operating_systems/tasks/task_1/README.md",
+    "operating_systems/presentations/README.md",
+    "operating_systems/notes/l_1.md",
+    "operating_systems/exam/Notes.md",
+    "operating_systems/assets/README.md",
+    "operating_systems/README.md",
+    "computer_architecture/notes/practise/task-4.md",
+    "computer_architecture/notes/practise/task-3.md",
+    "computer_architecture/notes/practise/task-2.md",
+    "computer_architecture/notes/practise/Screenshot 2023-01-14 at 6.09.19 PM.png",
+    "computer_architecture/notes/practise/Screenshot 2023-01-14 at 6.00.42 PM.png",
+    "computer_architecture/notes/practise/Screenshot 2023-01-14 at 5.52.56 PM.png",
+    "computer_architecture/notes/practise/Screenshot 2023-01-14 at 4.32.05 PM.png",
+    "computer_architecture/notes/practise/Screenshot 2023-01-14 at 4.31.50 PM.png",
+    "computer_architecture/notes/practise/Pasted image 20230114175510.png",
+    "computer_architecture/notes/practise/3 μηδενικά.png",
+    "computer_architecture/notes/21-11-22.md",
+    "computer_architecture/tasks/task_1/README.md",
+    "computer_architecture/tasks/21-11-22.md",
+    "computer_architecture/practise/task-4.md",
+    "computer_architecture/practise/task-3.md",
+    "computer_architecture/practise/task-2.md",
+    "computer_architecture/practise/Screenshot 2023-01-14 at 6.09.19 PM.png",
+    "computer_architecture/practise/Screenshot 2023-01-14 at 6.00.42 PM.png",
+    "computer_architecture/practise/Screenshot 2023-01-14 at 5.52.56 PM.png"
   ]
 }
