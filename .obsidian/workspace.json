@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "digital_design/README.md",
+                "file": "decentralized_systems/exam/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "digital_design/README.md",
+                "file": "decentralized_systems/exam/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "digital_design/README.md",
+                "file": "decentralized_systems/exam/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "digital_design/README.md"
+                "file": "decentralized_systems/exam/Notes.md"
               }
             }
           }
@@ -151,8 +151,11 @@
   },
   "active": "90fd89cfa71c7a7a",
   "lastOpenFiles": [
-    "digital_design/assets/Pasted image 20230401092612.png",
+    "decentralized_systems/notes/l_1.md",
     "decentralized_systems/presentations/README.md",
+    "decentralized_systems/tasks/task_1/README.md",
+    "digital_design/README.md",
+    "digital_design/assets/Pasted image 20230401092612.png",
     "decentralized_systems/presentations/DS_L10.pdf",
     "template/presentations/README.md",
     "digital_design/tasks/task_2/task-2.docx",
@@ -170,7 +173,6 @@
     "digital_design/exam/Exam.md",
     "digital_design/notes/l_1.md",
     "digital_design/assets/README.md",
-    "digital_design/README.md",
     "digital-design/exam/Notes.md",
     "digital-design/Notes.md",
     "digital-design/notes/Notes.md",
@@ -194,7 +196,6 @@
     "digital_design/assets/Screenshot 2023-03-25 at 9.09.08 PM.png",
     "digital_design/assets/Screenshot 2023-03-25 at 9.08.49 PM.png",
     "digital_design/assets/Screenshot 2023-03-25 at 9.05.34 PM.png",
-    "digital_design/assets/Screenshot 2023-03-25 at 9.05.06 PM.png",
-    "digital-design/Exam.md"
+    "digital_design/assets/Screenshot 2023-03-25 at 9.05.06 PM.png"
   ]
 }
