@@ -1,9 +1,9 @@
-# Obsidian vault
-
 > University notes must be freely available,
 > ensuring equitable access and promoting a culture of knowledge sharing.
 
-# Instructions 
+**For the best visual experience you to use Obsidian.**
+
+## Instructions 
 
 * Install newest version of Obsidian at https://obsidian.md/download
 
@@ -12,21 +12,12 @@
 $ git clone https://github.com/mario-pz/uni.git
 ```
 
-# Theme 
+* Open the notes
 
-I use tokyonight btw.
+## Some things to consider
 
-# Plugins being used 
-* editing-toolbar    
-* theme-picker
-* highlightr-plugin
-* omnisearch
-* obsidian-collapse-all-plugin  
-* obsidian-epub-plugin 
-* obsidian-languagetool-plugin
-* obsidian-pandoc 
-* obsidian-vimrc-support
-* obsidian-dictionary-plugin
-* obsidian-hider
-* obsidian-linter
-* obsidian-tabs
+You should maintain ethical standards on any lab tasks that I've published by using it as a reference instead of plagiarizing, as they do not guarantee a perfect score and each year they might change things. Remember at the end of the day you will be graded based on that disastrous 30 minute live hands-on lab with a very small number of courses as an exception.
+
+##  Contribution
+Publish your notes! Publish your lab tasks! 
+You can correct or update any notes! Be Open!

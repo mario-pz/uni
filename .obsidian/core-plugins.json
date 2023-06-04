@@ -15,7 +15,10 @@
   "editor-status",
   "bookmarks",
   "markdown-importer",
+  "zk-prefixer",
   "outline",
   "word-count",
+  "slides",
+  "workspaces",
   "file-recovery"
 ]

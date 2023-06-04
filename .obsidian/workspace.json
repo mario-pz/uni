@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "46432d1fca2e3b52",
+            "id": "a830860661f08f8e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "digital_design/notes/number_systems/README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cloud_computing/exam/Notes.md",
+                "file": "digital_design/notes/number_systems/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,20 +103,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cloud_computing/exam/Notes.md",
+                "file": "digital_design/notes/number_systems/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "59ddf6664acc2800",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
               }
             }
           },
@@ -122,7 +115,18 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cloud_computing/exam/Notes.md"
+                "file": "digital_design/notes/number_systems/README.md"
+              }
+            }
+          },
+          {
+            "id": "5849943ff489158d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
           }
@@ -142,11 +146,24 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "69b7a6a4ace8d044",
+  "active": "a830860661f08f8e",
   "lastOpenFiles": [
+    "digital_design/notes/number_systems/calculations.md",
+    "digital_design/notes/number_systems/conversion.md",
+    "digital_design/notes/number_systems/README.md",
+    "digital_design/notes/boolean_alg/README.md",
+    "digital_design/notes/boolean_alg/sum_of_product.md",
+    "digital_design/notes/number_systems",
+    "digital_design/notes/boolean_alg/product_of_sum.md",
+    "digital_design/notes/boolean_alg/exercises.md",
+    "digital_design/README.md",
+    "README.md",
+    "digital_design/notes/boolean_alg",
     "ai/tasks/task_1/main.py",
     "ai/tasks/task_1/README.md",
     "ai/tasks/task_1",
@@ -161,9 +178,6 @@
     "ai/assets",
     "ai/README.md",
     "ai",
-    "digital_design/presentations/ΨΗΦ_ΣΧΕΔ_11c.pdf",
-    "digital_design/presentations/ΨΗΦ_ΣΧΕΔ_10c.pdf",
-    "digital_design/presentations/ΨΗΦ_ΣΧΕΔ_09c.pdf",
     "operating_systems/notes/PCS and SCS.md",
     "operating_systems/notes/Notes.md",
     "operating_systems/notes/DEADLOCKS.md",
@@ -175,8 +189,6 @@
     "operating_systems/assets/README.md",
     "operating_systems/README.md",
     "computer_architecture/notes/practise/task-4.md",
-    "computer_architecture/notes/practise/task-3.md",
-    "computer_architecture/notes/practise/task-2.md",
     "computer_architecture/notes/practise/Screenshot 2023-01-14 at 6.09.19 PM.png",
     "computer_architecture/notes/practise/Screenshot 2023-01-14 at 6.00.42 PM.png",
     "computer_architecture/notes/practise/Screenshot 2023-01-14 at 5.52.56 PM.png",
@@ -184,12 +196,6 @@
     "computer_architecture/notes/practise/Screenshot 2023-01-14 at 4.31.50 PM.png",
     "computer_architecture/notes/practise/Pasted image 20230114175510.png",
     "computer_architecture/notes/practise/3 μηδενικά.png",
-    "computer_architecture/notes/21-11-22.md",
-    "computer_architecture/tasks/task_1/README.md",
-    "computer_architecture/tasks/21-11-22.md",
-    "computer_architecture/practise/task-4.md",
-    "computer_architecture/practise/task-3.md",
-    "computer_architecture/practise/task-2.md",
     "computer_architecture/practise/Screenshot 2023-01-14 at 6.09.19 PM.png",
     "computer_architecture/practise/Screenshot 2023-01-14 at 6.00.42 PM.png",
     "computer_architecture/practise/Screenshot 2023-01-14 at 5.52.56 PM.png"
