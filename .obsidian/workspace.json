@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1820336ff64fee72",
+        "id": "443f604cf712b250",
         "type": "tabs",
         "children": [
           {
-            "id": "339d69bbac8b669c",
+            "id": "572b745e5ae115cd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "digital_design/notes/flipflops/README.md",
-                "mode": "source",
-                "source": false
+                "file": "cloud_computing/assets/socks.png"
               }
             }
           }
@@ -86,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "digital_design/notes/flipflops/README.md",
+                "file": "cloud_computing/assets/socks.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "digital_design/notes/flipflops/README.md",
+                "file": "cloud_computing/assets/socks.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "digital_design/notes/flipflops/README.md"
+                "file": "cloud_computing/assets/socks.png"
               }
             }
           },
@@ -151,16 +149,20 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "339d69bbac8b669c",
+  "active": "572b745e5ae115cd",
   "lastOpenFiles": [
+    "cloud_computing/tasks/task_3/keno.txt",
+    "cloud_computing/assets/graph.png",
+    "cloud_computing/assets/locust.png",
+    "cloud_computing/assets/README.md",
+    "digital_design/notes/flipflops/conversions/sr_to_x.md",
+    "digital_design/notes/flipflops/README.md",
     "digital_design/notes/flipflops/conversions/d_to_x.md",
     "digital_design/notes/flipflops/conversions/jk_to_x.md",
-    "digital_design/notes/flipflops/conversions/sr_to_x.md",
     "digital_design/notes/flipflops/conversions/t_to_x.md",
     "digital_design/assets/sr_to_t_drawing.png",
     "digital_design/assets/karaugh_for_sr_to_t.png",
     "digital_design/notes/flipflops/conversions/conversion.md",
-    "digital_design/notes/flipflops/README.md",
     "digital_design/notes/flipflops/conversions",
     "digital_design/assets/sr_to_jk_drawing.png",
     "digital_design/assets/karaugh_for_SR.png",
@@ -169,8 +171,6 @@
     "digital_design/assets/Pasted image 20230401122334.png",
     "Pasted image 20230605122319.png",
     "digital_design/assets/tff_to_dff.png",
-    "Pasted image 20230605122316.png",
-    "digital_design/assets/jk_bool_expr.png",
     "digital_design/README.md",
     "digital_design/notes/flipflops",
     "digital_design/notes/karnaugh/examples.md",
@@ -196,7 +196,6 @@
     "ai/exam/Notes.md",
     "ai/assets/README.md",
     "ai/README.md",
-    "operating_systems/notes/PCS and SCS.md",
-    "operating_systems/notes/Notes.md"
+    "operating_systems/notes/PCS and SCS.md"
   ]
 }
