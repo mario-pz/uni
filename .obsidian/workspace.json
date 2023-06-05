@@ -11,9 +11,11 @@
             "id": "572b745e5ae115cd",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "cloud_computing/assets/socks.png"
+                "file": "cloud_computing/notes/README.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cloud_computing/assets/socks.png",
+                "file": "cloud_computing/notes/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cloud_computing/assets/socks.png",
+                "file": "cloud_computing/notes/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -113,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cloud_computing/assets/socks.png"
+                "file": "cloud_computing/notes/README.md"
               }
             }
           },
@@ -151,9 +153,23 @@
   },
   "active": "572b745e5ae115cd",
   "lastOpenFiles": [
+    "cloud_computing/notes/virtualization_technologies.md",
+    "cloud_computing/notes/map_reduce_and_spark.md",
+    "cloud_computing/notes/laws.md",
+    "cloud_computing/notes/cloud_solutions.md",
+    "cloud_computing/notes/cloud_models.md",
+    "cloud_computing/notes/characteristics.md",
+    "cloud_computing/notes/architectures.md",
+    "cloud_computing/notes/README.md",
+    "cloud_computing/README.md",
+    "cloud_computing/exam/Notes.md",
+    "cloud_computing/presentations/README.md",
+    "cloud_computing/notes/l_1.md",
+    "Screenshot 2023-03-24 at 6.02.06 PM.png.md",
+    "cloud_computing/assets/locust.png",
+    "cloud_computing/assets/socks.png",
     "cloud_computing/tasks/task_3/keno.txt",
     "cloud_computing/assets/graph.png",
-    "cloud_computing/assets/locust.png",
     "cloud_computing/assets/README.md",
     "digital_design/notes/flipflops/conversions/sr_to_x.md",
     "digital_design/notes/flipflops/README.md",
@@ -170,7 +186,6 @@
     "digital_design/assets/Pasted image 20230401092947.png",
     "digital_design/assets/Pasted image 20230401122334.png",
     "Pasted image 20230605122319.png",
-    "digital_design/assets/tff_to_dff.png",
     "digital_design/README.md",
     "digital_design/notes/flipflops",
     "digital_design/notes/karnaugh/examples.md",
@@ -178,24 +193,11 @@
     "digital_design/notes/karnaugh",
     "digital_design/notes/boolean_alg/sum_of_product.md",
     "digital_design/notes/number_systems/README.md",
-    "digital_design/notes/number_systems/conversion.md",
-    "digital_design/notes/number_systems/calculations.md",
     "digital_design/notes/number_systems",
-    "digital_design/notes/boolean_alg/product_of_sum.md",
-    "digital_design/notes/boolean_alg/exercises.md",
-    "README.md",
     "digital_design/notes/boolean_alg",
     "ai/tasks/task_1/main.py",
-    "ai/tasks/task_1/README.md",
     "ai/tasks/task_1",
     "ai/tasks",
-    "ai/presentations/README.md",
-    "ai/presentations",
-    "ai/notes/l_1.md",
-    "ai/notes",
-    "ai/exam/Notes.md",
-    "ai/assets/README.md",
-    "ai/README.md",
-    "operating_systems/notes/PCS and SCS.md"
+    "ai/presentations"
   ]
 }
