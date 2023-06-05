@@ -89,7 +89,7 @@ f(x, y, z, w) = xz + xw' + yz'
 ![[Screenshot 2023-03-25 at 11.08.35 PM.png]]
 
 
-![[Pasted image 20230401101814.png]]
+![[master_slave_jk.png]]
 
 
 
