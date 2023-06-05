@@ -22,7 +22,7 @@ In a cloud environment, scaling up and down can be performed automatically based
 It is important in a data center because it allows VMs to move seamlessly between physical servers, without interrupting services or causing downtime, thus ensuring continuous availability of applications and services to end users.
 - **Determine migration requirements**: Determine the virtual machine to be migrated, the source and destination physical hosts, and the network connectivity between them.
 
-* **Verify compatibility: Verify that the physical source and destination hosts are compatible with the virtual machine and that the virtual machine meets the requirements for live migration.
+* **Verify compatibility**: Verify that the physical source and destination hosts are compatible with the virtual machine and that the virtual machine meets the requirements for live migration.
 
 * **Prepare the virtual machine**: Suspend the virtual machine for a while to ensure that its memory state is consistent, then transfer the memory, storage, and network state of the virtual machine to the destination host.
 
