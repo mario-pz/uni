@@ -1,4 +1,3 @@
-
 # Cloud computing 
 a model that offers anywhere, easy (universal), on-demand network access to a common "reservoir" of configurable computing resources that can be rapidly provisioned and decommissioned with minimal management effort or interaction with service providers.
 

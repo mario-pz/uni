@@ -5,3 +5,20 @@ Cloud computing is one the few out of 55 courses in our university **that is act
 ## Tips
 
 Learn Docker.
+
+## Ύλη Εξετάσεων
+* 1a 
+* 1b
+* 2
+* 3a: 61-75
+* 3b: 1-26
+* 4a
+* 4b
+* 4c: 1-29
+* 5: 1-29
+* 6: 1-8,30-54
+* 7a
+* 7b
+* 8: 11-19,23-29,64-79
+* 9: 1-9
+* 10:1-82

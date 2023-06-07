@@ -11,6 +11,22 @@ Use Cases
 
 * **Data aggregation**: Map Reduce can efficiently aggregate data from multiple sources and summarize it for reporting and analysis purposes.
 
+## Combine Algorithm
+### What does it do
+The Combine algorithm in MapReduce performs local aggregation on intermediate key-value pairs before sending them to the Reduce phase. It helps reduce the amount of data that needs to be transferred across the network by combining similar key-value pairs.
+
+### Use Cases
+- Counting words in a large text corpus, where the output from the Map phase may contain multiple occurrences of the same word. The Combine algorithm can locally aggregate the word counts, reducing the data volume before sending it to the Reduce phase.
+- Calculating sums or averages, where intermediate values can be combined locally before the Reduce phase, reducing network traffic and improving performance.
+
+## Reduce Algorithm
+### What does it do
+The Reduce algorithm in MapReduce processes the intermediate key-value pairs produced by the Map phase. It combines and summarizes these pairs based on their keys, generating the final output.
+
+### Use Cases
+- Aggregating data, such as computing total sales or calculating average ratings from user reviews.
+- Filtering and selecting specific records based on certain conditions.
+
 # Hadoop
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Hadoop_logo.svg/1280px-Hadoop_logo.svg.png)
