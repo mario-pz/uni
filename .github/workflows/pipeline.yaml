@@ -1,4 +1,4 @@
-name: Publish to Release
+name: Publish release
 
 on:
   push:
@@ -8,12 +8,12 @@ on:
 
 env:
   RELEASE_NAME: Release v0.1
-  TAG_NAME: v0.1
-  VERSION: v0.1
+  TAG_NAME: ${GITHUB_REF##*/}
+  VERSION: ${GITHUB_REF##*/}
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
       - name: Checkout repository
@@ -29,27 +29,3 @@ jobs:
           release_name: ${{ env.RELEASE_NAME }}
           draft: false
           prerelease: false
-
-      - name: List directories
-        id: list_dirs
-        run: |
-          shopt -s nullglob
-          dirs=(*)
-          echo "::set-output name=dirs::${dirs[*]}"
-
-      - name: Zip directories and upload to release
-        id: zip_upload
-        run: |
-          for dir in ${{ steps.list_dirs.outputs.dirs }}; do
-            zip -r "${dir}.zip" "$dir"
-            echo "::set-output name=zipped_files::${dir}.zip"
-          done
-
-      - name: Upload zipped files to release
-        id: upload_release_assets
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_paths: ${{ steps.zip_upload.outputs.zipped_files }}
