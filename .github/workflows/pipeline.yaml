@@ -34,3 +34,17 @@ jobs:
           release_name: Release ${{ steps.tag_name.outputs.tag_name }}
           draft: false
           prerelease: false
+      - name: Zip directories
+        run: |
+          for dir in */; do
+            zip -r "${dir%/}.zip" "$dir"
+          done
+      - name: Upload release assets
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./*.zip
+          asset_name: uniwa-${{ steps.tag_name.outputs.tag_name }}.zip
+          asset_content_type: application/zip
