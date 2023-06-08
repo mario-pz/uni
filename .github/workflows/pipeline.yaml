@@ -48,3 +48,13 @@ jobs:
           asset_path: ./*.zip
           asset_name: uniwa-${{ steps.tag_name.outputs.tag_name }}.zip
           asset_content_type: application/zip
+
+      - name: Upload files to a GitHub release
+        uses: svenstaro/upload-release-action@2.6.1
+        with:
+          repo_token: ${{ secrets.TOKEN }}
+          file: "*.zip"
+          tag: ${{ steps.tag_name.outputs.tag_name }}
+          file_glob: true
+          release_name: "Uni Notes ${{ steps.tag_name.outputs.tag_name }}"
+          body: "My university notes and personal guides"
