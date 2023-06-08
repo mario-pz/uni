@@ -16,14 +16,21 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-
+      - name: Set Tag Name
+        id: tag_name
+        run: |
+          if [[ "${GITHUB_REF}" == "refs/tags/"* ]]; then
+            echo "::set-output name=tag_name::$(basename ${GITHUB_REF})"
+          else
+            echo "::set-output name=tag_name::"
+          fi
       - name: Create release
         id: create_release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
         with:
-          tag_name: ${GITHUB_REF##*/}
-          release_name: Release ${GITHUB_REF##*/}
+          tag_name: ${{ steps.tag_name.outputs.tag_name }}
+          release_name: Release ${{ steps.tag_name.outputs.tag_name }}
           draft: false
           prerelease: false
