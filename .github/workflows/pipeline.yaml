@@ -6,11 +6,6 @@ on:
       - '*'
     workflow_dispatch:
 
-env:
-  RELEASE_NAME: Release v0.1
-  TAG_NAME: ${GITHUB_REF##*/}
-  VERSION: ${GITHUB_REF##*/}
-
 jobs:
   build:
     runs-on: ubuntu-22.04
@@ -25,7 +20,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ env.TAG_NAME }}
-          release_name: ${{ env.RELEASE_NAME }}
+          tag_name: ${GITHUB_REF##*/}
+          release_name: Release ${GITHUB_REF##*/}
           draft: false
           prerelease: false
