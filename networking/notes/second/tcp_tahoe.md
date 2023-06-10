@@ -38,22 +38,3 @@ You might be given information about the initial cwnd, ssthresh, round-trip time
 * Continue simulating until you reach a specific condition mentioned in the exercise (e.g., a certain number of rounds or reaching a maximum cwnd value).
 * Keep track of the changes in cwnd, ssthresh, and other variables at each step.
 * Analyze the results and answer the questions based on the exercise requirements.
-
-
-# Notes
-## Timeout
-On timeout tcp tahoe will do the below to avoid congestion
-```
-ssthresh = cwnd/2
-cwnd = 1
-```
-## cwnd
-```
-# At the beginning: slow-start phase
-cwnd = 1
-for every ack:
-	if cwnd < ssthresh:
-		cwnd += 1
-	else:
-		cwnd += 1 / cwnd
-```
