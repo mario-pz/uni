@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "networking/notes/second/selective_repeat.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "networking/notes/second/selective_repeat.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "networking/notes/second/selective_repeat.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "networking/notes/second/selective_repeat.md"
+                "file": "README.md"
               }
             }
           },
@@ -154,6 +154,7 @@
   },
   "active": "5bbc5f8982e53de9",
   "lastOpenFiles": [
+    "networking/notes/second/selective_repeat.md",
     "networking/notes/second/stop_n_wait.md",
     "networking/notes/second/summarization.md",
     "networking/notes/second/tcp_reno.md",
@@ -162,7 +163,6 @@
     "networking/notes/second/go_back_n.md",
     "networking/notes/second/ospf.md",
     "networking/notes/second/README.md",
-    "networking/notes/second/selective_repeat.md",
     "networking/notes/first/application_layer.md",
     "networking/notes/first/network_layer.md",
     "networking/notes/first",

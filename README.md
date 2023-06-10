@@ -1,7 +1,7 @@
 > University notes must be freely available,
 > ensuring equitable access and promoting a culture of knowledge sharing.
 
-**For the best visual experience you to use Obsidian.**
+**Use Obsidian for the Best Visual Experience**
 
 ## Instructions 
 
