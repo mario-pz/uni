@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "networking/notes/second/selective_repeat.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "networking/notes/second/selective_repeat.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "networking/notes/second/selective_repeat.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "networking/notes/second/selective_repeat.md"
+                "file": "README.md"
               }
             }
           },
@@ -154,31 +154,37 @@
   },
   "active": "5bbc5f8982e53de9",
   "lastOpenFiles": [
-    "networking/notes/second/stop_n_wait.md",
-    "networking/notes/second/summarization.md",
-    "networking/notes/second/tcp_reno.md",
     "networking/notes/second/tcp_tahoe.md",
-    "networking/notes/second/autonomous_systems.md",
-    "networking/notes/second/go_back_n.md",
-    "networking/notes/second/ospf.md",
-    "networking/notes/second/README.md",
+    "networking/notes/second/tcp_reno.md",
+    "networking/notes/second/summarization.md",
+    "networking/notes/second/stop_n_wait.md",
     "networking/notes/second/selective_repeat.md",
-    "networking/notes/first/application_layer.md",
-    "networking/notes/first/network_layer.md",
-    "networking/notes/first",
+    "networking/notes/second/ospf.md",
+    "networking/notes/second/go_back_n.md",
+    "networking/notes/second/autonomous_systems.md",
+    "networking/notes/second/README.md",
     "networking/notes/second",
-    "networking/exam/second/exam_1.md",
+    "networking/notes/first/network_layer.md",
+    "networking/notes/first/application_layer.md",
+    "networking/notes/first",
+    "networking/notes",
     "networking/exam/task_solving.md",
+    "networking/exam/second/exam_1.md",
+    "networking/exam/second",
+    "networking/exam/first/signal-2022-12-30-194943_004.png",
     "networking/exam/first/signal-2022-12-30-194943_003.png",
+    "networking/exam/first/signal-2022-12-30-194943_002.png",
+    "networking/exam/first",
+    "networking/assets/simple_network.png",
+    "networking/notes/OSPF.md",
+    "networking/notes/Network Layer.md",
+    "networking/notes/Application Layer.md",
+    "networking/exam/signal-2022-12-30-194943_004.png",
+    "networking/exam/signal-2022-12-30-194943_003.png",
+    "networking/exam/signal-2022-12-30-194943_002.png",
     "networking/assets/Pasted image 20230130170450.png",
     "networking/assets/tcp-seq-ack.pdf",
-    "networking/assets/simple_network.png",
-    "networking/assets/simple_network.png",
-    "networking/exam/first/signal-2022-12-30-194943_004.png",
-    "networking/exam/first/signal-2022-12-30-194943_002.png",
-    "networking/exam/second",
     "networking/exam/Notes.md",
-    "networking/exam/first",
     "networking/presentations/README.md",
     "operating_systems/README.md",
     "operating_systems/exam/lab/task_1.c",
@@ -189,16 +195,8 @@
     "cloud_computing/notes/README.md",
     "cloud_computing/notes/virtualization_technologies.md",
     "cloud_computing/notes/architectures.md",
-    "cloud_computing/notes/cloud_services.md",
-    "cloud_computing/notes/Characteristics.md",
-    "cloud_computing/notes/cloud_solutions.md",
-    "cloud_computing/notes/laws.md",
     "cloud_computing/assets/locust.png",
-    "cloud_computing/assets/socks.png",
     "cloud_computing/tasks/task_3/keno.txt",
-    "cloud_computing/assets/graph.png",
-    "digital_design/assets/sr_to_t_drawing.png",
-    "digital_design/notes/flipflops/conversions",
-    "digital_design/notes/flipflops"
+    "digital_design/notes/flipflops/conversions"
   ]
 }

@@ -1,11 +1,7 @@
 > University notes must be freely available,
 > ensuring equitable access and promoting a culture of knowledge sharing.
 
-**For the best visual experience you to use Obsidian.**
-
 ## Instructions 
-
-* Install newest version of Obsidian at https://obsidian.md/download
 
 * Clone the project
 ```
