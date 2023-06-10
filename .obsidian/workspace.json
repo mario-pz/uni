@@ -4,16 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "70f546186c27f9d5",
+        "id": "a094c045e666789a",
         "type": "tabs",
+        "dimension": 99.99999999999999,
         "children": [
           {
-            "id": "15b210a1cc845ddd",
+            "id": "5bbc5f8982e53de9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "operating_systems/README.md",
+                "file": "networking/notes/second/autonomous_systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "operating_systems/README.md",
+                "file": "networking/notes/second/autonomous_systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "operating_systems/README.md",
+                "file": "networking/notes/second/autonomous_systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "operating_systems/README.md"
+                "file": "networking/notes/second/autonomous_systems.md"
               }
             }
           },
@@ -151,13 +152,39 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "15b210a1cc845ddd",
+  "active": "5bbc5f8982e53de9",
   "lastOpenFiles": [
+    "networking/notes/second/go_back_n.md",
+    "networking/notes/second/ospf.md",
+    "networking/notes/second/selective_repeat.md",
+    "networking/notes/second/stop_n_wait.md",
+    "networking/notes/second/summarization.md",
+    "networking/notes/second/tcp.md",
+    "networking/notes/second/tcp_reno.md",
+    "networking/notes/second/tcp_tahoe.md",
+    "networking/notes/second/autonomous_systems.md",
+    "networking/notes/first/application_layer.md",
+    "networking/notes/first/network_layer.md",
+    "networking/notes/first",
+    "networking/notes/second",
+    "networking/exam/second/exam_1.md",
+    "networking/exam/task_solving.md",
+    "networking/exam/first/signal-2022-12-30-194943_003.png",
+    "networking/assets/Pasted image 20230130170450.png",
+    "networking/assets/tcp-seq-ack.pdf",
+    "networking/assets/simple_network.png",
+    "networking/assets/simple_network.png",
+    "networking/exam/first/signal-2022-12-30-194943_004.png",
+    "networking/exam/first/signal-2022-12-30-194943_002.png",
+    "networking/exam/second",
+    "networking/exam/Notes.md",
+    "networking/exam/first",
+    "networking/presentations/README.md",
+    "operating_systems/README.md",
     "operating_systems/exam/lab/task_1.c",
     "operating_systems/exam/lab",
     "cloud_computing/notes/map_reduce_and_spark.md",
     "digital_design/README.md",
-    "operating_systems/README.md",
     "cloud_computing/notes/networking.md",
     "cloud_computing/notes/README.md",
     "cloud_computing/notes/virtualization_technologies.md",
@@ -166,38 +193,12 @@
     "cloud_computing/notes/Characteristics.md",
     "cloud_computing/notes/cloud_solutions.md",
     "cloud_computing/notes/laws.md",
-    "cloud_computing/README.md",
-    "digital_design/notes/karnaugh/README.md",
-    "template/README.md",
-    "template/assets/README.md",
-    "README.md",
-    "cloud_computing/notes/characteristics.md",
-    "cloud_computing/exam/Notes.md",
-    "cloud_computing/presentations/README.md",
-    "cloud_computing/notes/l_1.md",
-    "Screenshot 2023-03-24 at 6.02.06 PM.png.md",
     "cloud_computing/assets/locust.png",
     "cloud_computing/assets/socks.png",
     "cloud_computing/tasks/task_3/keno.txt",
     "cloud_computing/assets/graph.png",
-    "cloud_computing/assets/README.md",
-    "digital_design/notes/flipflops/conversions/sr_to_x.md",
-    "digital_design/notes/flipflops/README.md",
-    "digital_design/notes/flipflops/conversions/d_to_x.md",
     "digital_design/assets/sr_to_t_drawing.png",
-    "digital_design/assets/karaugh_for_sr_to_t.png",
     "digital_design/notes/flipflops/conversions",
-    "digital_design/assets/sr_to_jk_drawing.png",
-    "digital_design/assets/karaugh_for_SR.png",
-    "digital_design/assets/Pasted image 20230401092947.png",
-    "digital_design/assets/Pasted image 20230401122334.png",
-    "Pasted image 20230605122319.png",
-    "digital_design/notes/flipflops",
-    "digital_design/notes/karnaugh",
-    "digital_design/notes/number_systems",
-    "digital_design/notes/boolean_alg",
-    "ai/tasks/task_1/main.py",
-    "ai/tasks/task_1",
-    "ai/tasks"
+    "digital_design/notes/flipflops"
   ]
 }
