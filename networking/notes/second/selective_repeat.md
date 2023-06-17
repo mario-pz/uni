@@ -1,5 +1,5 @@
 # Selective Repeat
-Selective Repeat is another flow control protocol used for reliable data transmission in computer networks. It is also a sliding window protocol but differs from Go-Back-N in that it only re-transmits the packets that are damaged or lost, rather than re-transmitting a whole window of packets. Similar to [Go-Back-N](stop_n_wait.md), the sender divides the data stream into fixed-size packets and assigns a sequence number to each packet.
+Selective Repeat is another flow control protocol used for reliable data transmission in computer networks. It is also a sliding window protocol but differs from Go-Back-N in that it only re-transmits the packets that are damaged or lost, rather than re-transmitting a whole window of packets. Similar to [Go-Back-N](networking/notes/second/stop_n_wait.md), the sender divides the data stream into fixed-size packets and assigns a sequence number to each packet.
 
 * The sender starts transmitting the packets, one after the other, continuously.
 * The receiver receives the packets and sends individual acknowledgments for each successfully received packet.

@@ -4,17 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a094c045e666789a",
+        "id": "98cc5f9518a02f1b",
         "type": "tabs",
-        "dimension": 99.99999999999999,
         "children": [
           {
-            "id": "5bbc5f8982e53de9",
+            "id": "7a64069f2d1b8505",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "networking/exam/task_solving/theory_questions.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "networking/exam/task_solving/theory_questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "networking/exam/task_solving/theory_questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "networking/exam/task_solving/theory_questions.md"
               }
             }
           },
@@ -147,13 +146,22 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "omnisearch:Omnisearch": false,
       "zk-prefixer:Create new unique note": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "5bbc5f8982e53de9",
+  "active": "7a64069f2d1b8505",
   "lastOpenFiles": [
+    "networking/exam/task_solving/network_topology.md",
+    "networking/exam/task_solving/ip_summarization.md",
+    "networking/exam/task_solving/theory_questions.md",
+    "networking/README.md",
+    "networking/exam/Notes.md",
+    "networking/exam/task_solving/tcp_renoe_tahoe.md",
+    "networking/exam/task_solving/stop_n_wait.md",
+    "networking/exam/task_solving",
+    "README.md",
     "networking/notes/second/tcp_tahoe.md",
     "networking/notes/second/tcp_reno.md",
     "networking/notes/second/summarization.md",
@@ -168,7 +176,6 @@
     "networking/notes/first/application_layer.md",
     "networking/notes/first",
     "networking/notes",
-    "networking/exam/task_solving.md",
     "networking/exam/second/exam_1.md",
     "networking/exam/second",
     "networking/exam/first/signal-2022-12-30-194943_004.png",
@@ -184,19 +191,12 @@
     "networking/exam/signal-2022-12-30-194943_002.png",
     "networking/assets/Pasted image 20230130170450.png",
     "networking/assets/tcp-seq-ack.pdf",
-    "networking/exam/Notes.md",
     "networking/presentations/README.md",
     "operating_systems/README.md",
     "operating_systems/exam/lab/task_1.c",
     "operating_systems/exam/lab",
     "cloud_computing/notes/map_reduce_and_spark.md",
-    "digital_design/README.md",
-    "cloud_computing/notes/networking.md",
-    "cloud_computing/notes/README.md",
-    "cloud_computing/notes/virtualization_technologies.md",
-    "cloud_computing/notes/architectures.md",
     "cloud_computing/assets/locust.png",
-    "cloud_computing/tasks/task_3/keno.txt",
-    "digital_design/notes/flipflops/conversions"
+    "cloud_computing/tasks/task_3/keno.txt"
   ]
 }
