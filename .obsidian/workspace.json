@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "networking/exam/task_solving/theory_questions.md",
+                "file": "networking/exam/second/exam_1.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "networking/exam/task_solving/theory_questions.md",
+                "file": "networking/exam/second/exam_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "networking/exam/task_solving/theory_questions.md",
+                "file": "networking/exam/second/exam_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "networking/exam/task_solving/theory_questions.md"
+                "file": "networking/exam/second/exam_1.md"
               }
             }
           },
@@ -153,30 +153,38 @@
   },
   "active": "7a64069f2d1b8505",
   "lastOpenFiles": [
-    "networking/exam/task_solving/network_topology.md",
+    "networking/notes/second/routing.md",
+    "networking/exam/second/exam_2.md",
     "networking/exam/task_solving/ip_summarization.md",
     "networking/exam/task_solving/theory_questions.md",
-    "networking/README.md",
-    "networking/exam/Notes.md",
-    "networking/exam/task_solving/tcp_renoe_tahoe.md",
+    "networking/exam/second/exam_1.md",
+    "networking/notes/second/tcp.md",
+    "networking/notes/first/Data Link Layer.md",
+    "networking/notes/second/tcp_reno.md",
     "networking/exam/task_solving/stop_n_wait.md",
+    "networking/exam/task_solving/tcp_renoe_tahoe.md",
+    "networking/exam/task_solving/network_topology.md",
+    "networking/assets/network_topology_2.png",
+    "networking/notes/second/tcp_tahoe.md",
+    "networking/notes/second/ospf.md",
+    "networking/assets/topology_2.png",
+    "networking/notes/second/stop_n_wait.md",
+    "networking/notes/second/autonomous_systems.md",
+    "networking/notes/second/go_back_n.md",
+    "networking/notes/second/README.md",
+    "networking/notes/second/selective_repeat.md",
+    "networking/notes/second/summarization.md",
+    "networking/exam/Notes.md",
+    "networking/assets/Pasted image 20230130170450.png",
+    "Pasted image 20230618114947 1.png",
+    "networking/README.md",
     "networking/exam/task_solving",
     "README.md",
-    "networking/notes/second/tcp_tahoe.md",
-    "networking/notes/second/tcp_reno.md",
-    "networking/notes/second/summarization.md",
-    "networking/notes/second/stop_n_wait.md",
-    "networking/notes/second/selective_repeat.md",
-    "networking/notes/second/ospf.md",
-    "networking/notes/second/go_back_n.md",
-    "networking/notes/second/autonomous_systems.md",
-    "networking/notes/second/README.md",
     "networking/notes/second",
     "networking/notes/first/network_layer.md",
     "networking/notes/first/application_layer.md",
     "networking/notes/first",
     "networking/notes",
-    "networking/exam/second/exam_1.md",
     "networking/exam/second",
     "networking/exam/first/signal-2022-12-30-194943_004.png",
     "networking/exam/first/signal-2022-12-30-194943_003.png",
@@ -185,18 +193,11 @@
     "networking/assets/simple_network.png",
     "networking/notes/OSPF.md",
     "networking/notes/Network Layer.md",
-    "networking/notes/Application Layer.md",
     "networking/exam/signal-2022-12-30-194943_004.png",
     "networking/exam/signal-2022-12-30-194943_003.png",
-    "networking/exam/signal-2022-12-30-194943_002.png",
-    "networking/assets/Pasted image 20230130170450.png",
     "networking/assets/tcp-seq-ack.pdf",
-    "networking/presentations/README.md",
-    "operating_systems/README.md",
     "operating_systems/exam/lab/task_1.c",
     "operating_systems/exam/lab",
-    "cloud_computing/notes/map_reduce_and_spark.md",
-    "cloud_computing/assets/locust.png",
     "cloud_computing/tasks/task_3/keno.txt"
   ]
 }

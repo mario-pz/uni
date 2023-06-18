@@ -1,4 +1,3 @@
-
 # Task 1
 In a stop and wait protocol we consider that the link has a capacity of 1Gb/s and each packet consists of 12000 bits.
 What is the utilization factor of the link if the round trip propagation time is:
@@ -30,7 +29,6 @@ Converting 1 Gbps to bits per second: 1 Gbps = 1,000,000,000 bits per second
 Utilization Factor = (12000 bits) / (1,000,000,000 bits per second * 0.03 seconds)
 = 0.0004
 ```
-
 
 Therefore, the utilization factor is 0.0004 or 0.04%.
 
@@ -118,7 +116,6 @@ Hosts value RTT estimation as it enables them to optimize their timeout values, 
 
 In the given datagram network topology, it is not possible to create a forwarding table on Router A that directs all traffic from H1 to H3 through interface 3 and all traffic from H2 to H3 through interface 4. This limitation arises because Router A does not have a direct connection to Router D, where H3 is connected, and thus lacks the necessary information to determine the next hop for H3. To achieve the desired forwarding behavior, a network configuration with additional routing information and routing protocols, such as OSPF or BGP, would be required. Such a setup would enable the exchange of routing information between routers and provide Router A with the necessary details to create a forwarding table that includes the appropriate next hop and outgoing interfaces for H3.
 
-
 # Task 6
 
 Convert the network addresses to binary form:
@@ -134,7 +131,6 @@ Identify the common bits from the left in the binary representation:
 ```
 Common bits: 00001010.00000000
 ```
-
 
 Determine the subnet mask based on the number of common bits:
 
@@ -154,8 +150,6 @@ The summarized address is the network address combined with the subnet mask:
 ```
 Summary address: 10.0.8.0/17
 ```
-
-
 
 # Task 7
  Autonomous Systems are collections of networks, managed independently by a single organization. They provide routing, connectivity, autonomy, scalability, redundancy, and foster competition. Their interconnections and independent management contribute to the internet's functionality, resilience, and growth.

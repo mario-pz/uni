@@ -8,6 +8,26 @@
 * Look for a slower and more gradual change in the congestion window (cwnd) without extreme drops.
 * It exhibits a more conservative response to congestion compared to TCP Reno.
 
+# Notes
+## cwnd
+* default value = 1
+* during slow start cwnd increases by double 
+* cwnd increases by 1 if its not in the phase of slow start
+
+## RTT
+* default value is 1
+* On each dot RTT increases by 1
+
+## MSS
+* MSS default value is 1
+* MSS value continues on like this:
+```
+1 MSS
+2 + 1 = 3 MSS
+4 + 3 = 7 MSS
+...
+```
+
 # Task
 
 ## Calculate the number of bytes sent from transmission round X to Y

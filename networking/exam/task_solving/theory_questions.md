@@ -63,7 +63,7 @@ Client                          Server
 
 ```
 
-# Suppose an application produces chunks of 40 bytes every 20 msec and each chunk is encapsulated in a TCP segment and then in an IP datagram.Find the overhead percentage of each datagram and application level data percentage
+# Suppose an application produces chunks of 40 bytes every 20 msec and each chunk is encapsulated in a TCP segment and then in an IP datagram. Find the overhead percentage of each datagram and application level data percentage
 
 |IP Header | TCP Header| Application Data |
 |---|---|---|
@@ -114,7 +114,7 @@ In a network with three routers (A, B, and C), the "count to infinity" problem o
 
 # State the differences between distance vector and link state routing algorithms and examples of modern routing algorithms by category.
 
-* **Information Exchange**: Distance vector algorithms share routing information with directly connected neighbors, while link state algorithms share complete network topology information with all routers in the network.
+* **Information Exchange**: Distance vector algorithms share routing information with directly connected neighbors, while link state algoedo thelo enanrithms share complete network topology information with all routers in the network.
 
 * **Routing Table Updates**: Distance vector algorithms periodically send updates containing their entire routing table to neighbors, while link state algorithms flood network topology changes to ensure all routers have consistent information.
 
@@ -158,3 +158,10 @@ In this scenario, the impact of using a protocol with NACs would be minimal. Sin
 ### b) Transmitter sends the data with high frequency and with low losses. It is also considered that the receiver sends an ACK when it receives the next packet than expected.
 
 In this scenario, using a protocol with NACs would have a more noticeable impact on performance. With NACs, the receiver would need to individually request retransmissions for missing packets, introducing additional latency and overhead. The lack of positive acknowledgments means that the transmitter may not be aware of successful deliveries until a NAC is received, leading to inefficiencies in the transmission process.
+
+# How does IPv6 communicate with IPv4?
+IPv6 and IPv4 communicate through a process called IPv6 transition mechanisms. These mechanisms enable communication between IPv6-only and IPv4-only networks by encapsulating IPv6 packets within IPv4 packets or by using various translation techniques to convert IPv6 packets into IPv4-compatible formats, allowing interoperability between the two protocols.
+
+# if two different values for cwnd arise from the flow and congestion control mechanisms, how does tcp decide what do we answer?
+
+TCP can choose the smaller value if the cwnd value from the flow control mechanism is smaller, and the larger value if the cwnd value from the congestion control mechanism is larger.
