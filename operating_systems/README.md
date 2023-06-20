@@ -3,7 +3,10 @@
 ## References
 
 ## Tips
-Study well and frequently the book **Operating System Concepts**
+Study frequently.
+
+## Books 
+* Operating System Concepts
 
 ## Exam Material
 

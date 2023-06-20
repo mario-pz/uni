@@ -93,7 +93,7 @@ Round 16: 42 * 200 = 8400 bytes
 ssthresh is 17
 
 ## D
-cwnd 0, therefore the sender is a stage of congestion avoidance.
+cwnd 1, therefore the sender is a stage of congestion avoidance.
 
 # Task 3
 

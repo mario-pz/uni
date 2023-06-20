@@ -139,7 +139,9 @@ BGP is primarily used in large-scale networks to establish and maintain efficien
 
 # Develop the main features of the OSPF routing algorithm and explain the need for areas
 
-The OSPF routing algorithm incorporates key features such as a Link-State Database for maintaining network state, the SPF Algorithm for calculating shortest paths, Neighbor Discovery for establishing connections, and Dynamic Updates for exchanging routing information. Areas are essential in OSPF as they enable scalability, simplify administration, improve convergence, and enhance network security by dividing large networks into smaller units.
+The OSPF routing algorithm incorporates key features such as a Link-State Database for maintaining network state, the SPF Algorithm for calculating shortest paths, Neighbor Discovery for establishing connections, and Dynamic Updates for exchanging routing information. 
+
+Areas are essential in OSPF as they enable scalability, simplify administration, improve convergence, and enhance network security by dividing large networks into smaller units.
 
 # State which transport protocol the HTTP,DNS,SMTP,FTP, skype for voice, youtube, DHCP applications use and explain why
 

@@ -1,3 +1,5 @@
+# Edge Router
+An edge router is a network router located at the boundary of a network. It connects internal networks to external networks like the Internet, handling the routing of packets, performing network address translation (NAT), enforcing security through firewalls, supporting quality of service (QoS), and enabling virtual private networks (VPNs). It plays a vital role in connecting networks and providing connectivity, security, and control over network traffic.
 
 # What is OSPF
 It a link-state protocol that uses several different packets to exchange the information about network topology between routers.
