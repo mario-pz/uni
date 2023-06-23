@@ -191,5 +191,6 @@ To schedule the gangs using gang sharing, follow these steps:
 
 # References
 
+
+* ![](https://youtu.be/rUFHVVaVt7g)
 * ![](https://youtu.be/L56xPaMxYHs)
-* ![](https://www.youtube.com/watch?v=3a7qgsfShDI)
