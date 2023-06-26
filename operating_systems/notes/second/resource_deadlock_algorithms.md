@@ -1,13 +1,16 @@
 # Notes
 
 ```
-Allocation + Max = Need
-
-Safety Algorithm -> need <= work
+Safety Algorithm -> need <= work (Current Availability >= Remaining Need)
 
 w = w + alloc
-```
 
+To find Need = Allocation + Max
+To find Remaining Need = Max - Allocation
+To find Allocation = Max need - Remaining Need
+if total is given:
+To find Available = Total - Allocation(Sum of Processes)
+```
 
 # Algorithms
 
@@ -23,7 +26,7 @@ w = w + alloc
 Three processes are competing for 3 resources A,B,C. 
 Given the below table
 
-## Allocated Resources
+## Allocation
 
 * What resources have already been allocated  in every process
 
@@ -33,7 +36,7 @@ Given the below table
 |P2|2|3|2|
 |P3|0|2|1|
 
-## Max Demands
+## Max Need
 
 * What are the max resources each kind of process can request
 
@@ -43,7 +46,7 @@ Given the below table
 	|P2|2|9|8|
 |P3|3|2|3|
 
-## Resources available
+## Available
 
 | |A|B|C|
 |---|---|---|---|

@@ -15,6 +15,7 @@ process CS1 {
 		noncritical section;
 	} 
 }
+
 process CS2 { 
 	while (true) { 
 		in2 = true;
