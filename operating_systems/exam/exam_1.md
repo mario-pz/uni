@@ -96,7 +96,6 @@ Finally P1 manages to complete, therefore the minimum value we search for is 3
 |P1|60|48|
 |P2|15|3|
 
-
 ### Answer
 
 - At time 0ms, P2 has the highest priority since it has the shortest period. P2 executes for 3ms.

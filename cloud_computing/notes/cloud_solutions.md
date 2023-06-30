@@ -2,6 +2,7 @@
 Used to describe products and services that aim to emulate cloud computing on private networks
 
 # Hybrid
+
 The Hybrid cloud model combines the use of both private and public clouds to meet specific business needs. It allows organizations to leverage the benefits of both environments while addressing their unique requirements. In a hybrid cloud setup, some applications and data are kept on-premises in a private cloud infrastructure, while others are hosted in the public cloud.
 
 # Public

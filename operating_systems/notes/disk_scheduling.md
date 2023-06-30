@@ -50,7 +50,7 @@ A disk contains 200 threads (0-199), Current position of r/w is 50.
 0,16,24,43,50,82,140,170,190
 ```
 
-![](../../assets/sstf_disk.png)
+![](../assets/sstf_disk.png)
 
 Conclude the number of track movements by r/w.
 
@@ -78,7 +78,7 @@ A disk contains 200 threads (0-199), Current position of r/w is 50.
 0,16,24,43,50,82,140,170,190
 ```
 
-![](../../assets/scan_disk.png)
+![](../assets/scan_disk.png)
 
 Conclude the number of track movements by r/w.
 
@@ -105,7 +105,7 @@ A disk contains 200 threads (0-199), Current position of r/w is 50.
 0,16,24,43,50,82,140,170,190
 ```
 
-![](../../assets/cscan_disk.png)
+![](../assets/cscan_disk.png)
 
 Conclude the number of track movements by r/w.
 
@@ -127,7 +127,7 @@ A disk contains 200 threads (0-199), Current position of r/w is 50.
 0,16,24,43,50,82,140,170,190
 ```
 
-![](../../assets/look_disk.png)
+![](../assets/look_disk.png)
 
 Conclude the number of track movements by r/w.
 
@@ -154,7 +154,7 @@ A disk contains 200 threads (0-199), Current position of r/w is 50.
 0,16,24,43,50,82,140,170,190
 ```
 
-![](../../assets/clook_disk.png)
+![](../assets/clook_disk.png)
 
 Conclude the number of track movements by r/w.
 
@@ -196,7 +196,7 @@ Suppose the head is on cylinder 75 and must applications for cylinders 98, 105, 
 deadlines respectively 35ms, 72ms, 48ms…? Move from 75 to 98 and then 183 (no
 in between to serve 105) and then to 105.
 
-![](../../assets/edf_disk.png)
+![](../assets/edf_disk.png)
 
 ## SCAN-EDF (Combination of SCAN and EDF)
 

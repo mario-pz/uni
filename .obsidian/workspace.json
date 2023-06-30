@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "39b0fca51a3769dc",
+        "id": "012b63dc9e711f62",
         "type": "tabs",
         "children": [
           {
-            "id": "01137f603e33d0ef",
+            "id": "e668dfb1f5824eaf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "operating_systems/notes/second/real_time_scheduling.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d9e56cd9abe38486",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "operating_systems/exam/exam_1.md",
+                "file": "cloud_computing/notes/README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "operating_systems/exam/exam_1.md",
+                "file": "cloud_computing/notes/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "operating_systems/exam/exam_1.md",
+                "file": "cloud_computing/notes/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "operating_systems/exam/exam_1.md"
+                "file": "cloud_computing/notes/README.md"
               }
             }
           },
@@ -165,20 +152,32 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d9e56cd9abe38486",
+  "active": "e668dfb1f5824eaf",
   "lastOpenFiles": [
+    "cloud_computing/notes/networking.md",
+    "cloud_computing/notes/map_reduce.md",
+    "cloud_computing/notes/laws.md",
+    "cloud_computing/notes/cloud_solutions.md",
+    "cloud_computing/notes/cloud_services.md",
+    "cloud_computing/notes/architectures.md",
+    "cloud_computing/notes/Characteristics.md",
+    "cloud_computing/notes/hadoop_spark.md",
+    "cloud_computing/notes/virtualization_technologies.md",
+    "cloud_computing/notes/README.md",
+    "cloud_computing/exam/exam_1.md",
+    "cloud_computing/presentations/README.md",
+    "operating_systems/notes/disk_scheduling.md",
+    "operating_systems/notes/second/CPU SCHEDULING.md",
+    "operating_systems/exam/exam_1.md",
     "operating_systems/notes/second/multiprocessor_scheduling.md",
     "operating_systems/notes/second/Notes.md",
     "operating_systems/notes/second/PCS and SCS.md",
     "operating_systems/notes/second/real_time_scheduling.md",
     "operating_systems/notes/second/resource_deadlock_algorithms.md",
-    "operating_systems/exam/exam_1.md",
     "operating_systems/exam/Notes.md",
     "operating_systems/notes/second/deadlock.md",
-    "operating_systems/notes/disk_scheduling.md",
     "operating_systems/notes/second/multiprocessor_algorithms.md",
     "operating_systems/assets/butterfly.png",
-    "operating_systems/notes/second/CPU SCHEDULING.md",
     "operating_systems/presentations/LS-II_Lecture#9.pdf",
     "operating_systems/presentations/LS-II_Lecture#6#7.pdf",
     "Excalidraw/Drawing 2023-06-24 22.26.09.excalidraw.md",
@@ -196,19 +195,8 @@
     "operating_systems/assets/scan_disk.png",
     "operating_systems/assets/sstf_disk.png",
     "operating_systems/assets/fcfs_disk.png",
-    "operating_systems/README.md",
-    "operating_systems/notes/l_1.md",
     "operating_systems/notes/first",
     "operating_systems/notes/second",
-    "operating_systems/presentations/README.md",
-    "networking/exam/task_solving/theory_questions.md",
-    "networking/exam/Notes.md",
-    "networking/notes/second/tcp_reno.md",
-    "networking/notes/second/tcp.md",
-    "networking/notes/second/summarization.md",
-    "networking/notes/second/stop_n_wait.md",
-    "networking/notes/second/selective_repeat.md",
-    "networking/notes/second/routing.md",
     "networking/assets/network_topology_2.png",
     "networking/exam/task_solving"
   ]
