@@ -154,6 +154,16 @@
   },
   "active": "e668dfb1f5824eaf",
   "lastOpenFiles": [
+    "digital_design/assets/Pasted image 20230401104311.png",
+    "digital_design/assets/q0-q1-task9.png",
+    "digital_design/assets/synchronous-leftright.png",
+    "digital_design/assets/synchronous-full-adder-4bit.png",
+    "digital_design/assets/z0-z1-task-1.png",
+    "digital_design/assets/sr-to-d-fli-flop.png",
+    "digital_design/assets/parallel-positive-4bit.png",
+    "digital_design/assets/4-1-decoder.png",
+    "digital_design/assets/4-1.png",
+    "digital_design/assets/2-4-decoder.png",
     "operating_systems/notes/second/multiprocessor_algorithms.md",
     "operating_systems/notes/first/disk_scheduling.md",
     "operating_systems/notes/second/deadlock.md",
@@ -186,18 +196,9 @@
     "operating_systems/assets/butterfly.png",
     "operating_systems/presentations/LS-II_Lecture#9.pdf",
     "operating_systems/presentations/LS-II_Lecture#6#7.pdf",
-    "operating_systems/assets/edf_disk.png",
     "Excalidraw",
     "ls2_diagrams",
-    "operating_systems/assets/clook_disk.png",
-    "operating_systems/assets/cscan_disk.png",
-    "operating_systems/assets/look_disk.png",
-    "operating_systems/assets/Screenshot 2023-06-23 at 12.22.53 PM 1.png",
-    "operating_systems/assets/scan_disk.png",
-    "operating_systems/assets/sstf_disk.png",
-    "operating_systems/assets/fcfs_disk.png",
     "operating_systems/notes/first",
-    "operating_systems/notes/second",
-    "networking/assets/network_topology_2.png"
+    "operating_systems/notes/second"
   ]
 }
