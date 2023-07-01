@@ -2,7 +2,8 @@
 # Algorithms
 
 ## Rate Monotonic Algorithm (RMA):
-RMA is a priority-based scheduling algorithm for periodic tasks, where tasks with shorter periods are assigned higher priorities. It guarantees schedulability under certain conditions.
+RMA is a priority-based scheduling algorithm for periodic tasks, where tasks with shorter periods are assigned higher priorities
+It guarantees schedulability under certain conditions.
 
 ## Earliest Deadline First (EDF):
 It is a dynamic priority scheduling algorithm where tasks are assigned priorities based on their relative deadlines. The task with the closest deadline is given the highest priority. EDF is optimal for scheduling a set of periodic or aperiodic tasks.

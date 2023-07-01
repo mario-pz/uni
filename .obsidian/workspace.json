@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cloud_computing/notes/README.md",
+                "file": "operating_systems/exam/exam_1.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cloud_computing/notes/README.md",
+                "file": "operating_systems/exam/exam_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cloud_computing/notes/README.md",
+                "file": "operating_systems/exam/exam_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cloud_computing/notes/README.md"
+                "file": "operating_systems/exam/exam_1.md"
               }
             }
           },
@@ -154,40 +154,41 @@
   },
   "active": "e668dfb1f5824eaf",
   "lastOpenFiles": [
-    "cloud_computing/notes/networking.md",
-    "cloud_computing/notes/map_reduce.md",
-    "cloud_computing/notes/laws.md",
+    "operating_systems/notes/second/multiprocessor_algorithms.md",
+    "operating_systems/notes/first/disk_scheduling.md",
+    "operating_systems/notes/second/deadlock.md",
+    "operating_systems/notes/second/multiprocessor_scheduling.md",
+    "operating_systems/exam/exam_1.md",
+    "operating_systems/notes/second/resource_deadlock_algorithms.md",
+    "operating_systems/notes/first/CPU SCHEDULING.md",
+    "operating_systems/notes/second/Notes.md",
+    "operating_systems/notes/second/real_time_scheduling.md",
+    "operating_systems/notes/second/PCS and SCS.md",
+    "operating_systems/README.md",
+    "operating_systems/presentations/README.md",
+    "operating_systems/presentations/LS-II_Lecture#2.pdf",
+    "operating_systems/presentations/LS-II_Lecture#4#5.pdf",
+    "operating_systems/presentations/LS-II_Lecture#3.pdf",
+    "operating_systems/exam/Notes.md",
+    "operating_systems/notes/first",
+    "operating_systems/notes/first.md",
     "cloud_computing/notes/cloud_solutions.md",
-    "cloud_computing/notes/cloud_services.md",
+    "cloud_computing/notes/hadoop_spark.md",
+    "cloud_computing/notes/laws.md",
+    "cloud_computing/notes/map_reduce.md",
+    "cloud_computing/notes/networking.md",
+    "cloud_computing/notes/README.md",
+    "cloud_computing/notes/virtualization_technologies.md",
+    "cloud_computing/presentations/README.md",
     "cloud_computing/notes/architectures.md",
     "cloud_computing/notes/Characteristics.md",
-    "cloud_computing/notes/hadoop_spark.md",
-    "cloud_computing/notes/virtualization_technologies.md",
-    "cloud_computing/notes/README.md",
-    "cloud_computing/exam/exam_1.md",
-    "cloud_computing/presentations/README.md",
-    "operating_systems/notes/disk_scheduling.md",
-    "operating_systems/notes/second/CPU SCHEDULING.md",
-    "operating_systems/exam/exam_1.md",
-    "operating_systems/notes/second/multiprocessor_scheduling.md",
-    "operating_systems/notes/second/Notes.md",
-    "operating_systems/notes/second/PCS and SCS.md",
-    "operating_systems/notes/second/real_time_scheduling.md",
-    "operating_systems/notes/second/resource_deadlock_algorithms.md",
-    "operating_systems/exam/Notes.md",
-    "operating_systems/notes/second/deadlock.md",
-    "operating_systems/notes/second/multiprocessor_algorithms.md",
+    "cloud_computing/notes/cloud_services.md",
     "operating_systems/assets/butterfly.png",
     "operating_systems/presentations/LS-II_Lecture#9.pdf",
     "operating_systems/presentations/LS-II_Lecture#6#7.pdf",
-    "Excalidraw/Drawing 2023-06-24 22.26.09.excalidraw.md",
     "operating_systems/assets/edf_disk.png",
     "Excalidraw",
-    "operating_systems/presentations/LS-II_Lecture#4#5.pdf",
-    "operating_systems/presentations/LS-II_Lecture#3.pdf",
-    "operating_systems/presentations/LS-II_Lecture#2.pdf",
     "ls2_diagrams",
-    "Excalidraw/Drawing 2023-06-23 12.02.21.excalidraw.md",
     "operating_systems/assets/clook_disk.png",
     "operating_systems/assets/cscan_disk.png",
     "operating_systems/assets/look_disk.png",
@@ -197,7 +198,6 @@
     "operating_systems/assets/fcfs_disk.png",
     "operating_systems/notes/first",
     "operating_systems/notes/second",
-    "networking/assets/network_topology_2.png",
-    "networking/exam/task_solving"
+    "networking/assets/network_topology_2.png"
   ]
 }

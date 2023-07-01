@@ -59,7 +59,7 @@ For X = 1
 ```
 1,5,5  <= (3,3,1) False
 0,6,6  <= (3,3,1) False
-3,0,1  <= (3,3,1) True
+3,0,2  <= (3,3,1) True
 ```
 
 Only P3 manages, so we do `(0,2,1) + (3, 3, Y) = (3,5, Y + 1)` and put it on available.
@@ -137,8 +137,8 @@ It is only possible if the total utilization is less than or equal to 100%. In o
 |ms|C1|C2|C3|C4|C5|C6|C7|C8|C9|C10|C11|C12|
 |---|---|---|---|---|---|---|---|---|---|---|---|----|
 |0-30|A1|A2|A3|A4|A5|A6|A7|A8|B1|B2|B3|B4|
-|60-90|B5 |B6|B7|B8|C1|C2|C3|C4|C5|C6|C7|C8|
-|90-135|D1 |D2|D3|D4|E1|E2|E3|E4|Z1|Z2|Z3|Z4|
+|30-60|B5 |B6|B7|B8|C1|C2|C3|C4|C5|C6|C7|C8|
+|60-105|D1 |D2|D3|D4|E1|E2|E3|E4|Z1|Z2|Z3|Z4|
 
 ## Show how the threads will execute using gang scheduling with quantum 15ms
 
