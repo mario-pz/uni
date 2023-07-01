@@ -90,8 +90,6 @@ f(x, y, z, w) = xz + xw' + yz'
 
 #### 7. Να μετατραπούν τα SR flip-flop που δίνονται στην συνέχεια σε D και JK flip-flop. Για την μετατροπή έχετε στην διάθεση σας τις βασικές λογικές πύλες (AND-2, OR-2, NOT, NAND-2, NOR-2, XOR-2, XNOR-2)
 
-![[Screenshot 2023-03-25 at 11.08.35 PM.png]]
-
 ![](../assets/sr-to-d-fli-flop.png)
 
 ![](../assets/master_slave_jk.png)
