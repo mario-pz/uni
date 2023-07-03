@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "012b63dc9e711f62",
+        "id": "9af8c5efd660f2f7",
         "type": "tabs",
         "children": [
           {
-            "id": "e668dfb1f5824eaf",
+            "id": "630652bed79fdb78",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "operating_systems/exam/exam_1.md",
+                "file": "digital_design/exam/Exam.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "operating_systems/exam/exam_1.md",
+                "file": "digital_design/exam/Exam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "operating_systems/exam/exam_1.md",
+                "file": "digital_design/exam/Exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "operating_systems/exam/exam_1.md"
+                "file": "digital_design/exam/Exam.md"
               }
             }
           },
@@ -152,23 +152,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e668dfb1f5824eaf",
+  "active": "630652bed79fdb78",
   "lastOpenFiles": [
-    "digital_design/assets/Pasted image 20230401104311.png",
-    "digital_design/assets/q0-q1-task9.png",
-    "digital_design/assets/synchronous-leftright.png",
-    "digital_design/assets/synchronous-full-adder-4bit.png",
-    "digital_design/assets/z0-z1-task-1.png",
-    "digital_design/assets/sr-to-d-fli-flop.png",
-    "digital_design/assets/parallel-positive-4bit.png",
-    "digital_design/assets/4-1-decoder.png",
-    "digital_design/assets/4-1.png",
-    "digital_design/assets/2-4-decoder.png",
-    "operating_systems/notes/second/multiprocessor_algorithms.md",
+    "digital_design/assets/Screenshot 2023-03-25 at 2.38.08 PM.png",
+    "digital_design/assets/Screenshot 2023-03-25 at 2.33.19 PM.png",
+    "digital_design/assets/Screenshot 2023-03-25 at 2.20.27 PM.png",
+    "digital_design/assets/Pasted image 20230401095043.png",
+    "digital_design/assets/Pasted image 20230401092946.png",
+    "digital_design/assets/karnaugh_map.png",
+    "digital_design/assets/karaugh_for_sr_to_t.png",
+    "digital_design/assets/karaugh_for_SR.png",
+    "digital_design/assets/jk_to_d.png",
+    "digital_design/assets/Screenshot 2023-03-25 at 11.16.23 PM.png",
+    "digital_design/assets/Screenshot 2023-03-25 at 11.10.51 PM.png",
+    "digital_design/assets/README.md",
+    "digital_design/exam/Exam.md",
     "operating_systems/notes/first/disk_scheduling.md",
+    "operating_systems/exam/exam_2.md",
+    "operating_systems/exam/exam_1.md",
+    "operating_systems/notes/second/multiprocessor_algorithms.md",
     "operating_systems/notes/second/deadlock.md",
     "operating_systems/notes/second/multiprocessor_scheduling.md",
-    "operating_systems/exam/exam_1.md",
     "operating_systems/notes/second/resource_deadlock_algorithms.md",
     "operating_systems/notes/first/CPU SCHEDULING.md",
     "operating_systems/notes/second/Notes.md",
@@ -190,10 +194,6 @@
     "cloud_computing/notes/README.md",
     "cloud_computing/notes/virtualization_technologies.md",
     "cloud_computing/presentations/README.md",
-    "cloud_computing/notes/architectures.md",
-    "cloud_computing/notes/Characteristics.md",
-    "cloud_computing/notes/cloud_services.md",
-    "operating_systems/assets/butterfly.png",
     "operating_systems/presentations/LS-II_Lecture#9.pdf",
     "operating_systems/presentations/LS-II_Lecture#6#7.pdf",
     "Excalidraw",

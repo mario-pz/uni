@@ -146,9 +146,9 @@ It is only possible if the total utilization is less than or equal to 100%. In o
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | 0-15   | A1  | A2  | A3  | A4  | A5  | A6  | A7  | A8  |     |     |     |     |
 | 15-30  | B1  | B2  | B3  | B4  | B5  | B6  | B7  | B8  |     |     |     |     |
-| 30-45  | C1  | C2  | C3  | C4  | C5  | C6  | C7  | C8  |     |     |     |     |
-| 45-60  | D1  | D2  | D3  | D4  | E1  | E2  | E3  | E4  | Z1  | Z2  | Z3  | Z4  |
-| 60-75   | A1  | A2  | A3  | A4  | A5  | A6  | A7  | A8  |     |     |     |     |
+| 30-45  | C1  | C2  | C3  | C4  | C5  | C6  | C7  | C8  | D1  | D2  | D3  | D4  |
+| 45-60  | E1  | E2  | E3  | E4  | Z1  | Z2  | Z3  | Z4  |     |     |     |     |
+| 60-75  | A1  | A2  | A3  | A4  | A5  | A6  | A7  | A8  |     |     |     |     |
 | 75-90  | B1  | B2  | B3  | B4  | B5  | B6  | B7  | B8  |     |     |     |     |
 | 90-105  | C1  | C2  | C3  | C4  | C5  | C6  | C7  | C8  |     |     |     |     |
 | 105-120 | D1  | D2  | D3  | D4  | E1  | E2  | E3  | E4  | Z1  | Z2  | Z3  | Z4  |
@@ -160,8 +160,10 @@ In modern multiprocessor systems, a simple TSL (Test-and-Set-Lock) mechanism use
 
 # What is a spin lock
 
-A spin lock is a type of lock used in computer programming to protect shared resources. It uses busy-waiting, where a thread continuously checks for the availability of the lock until it can acquire it. Spin locks are suitable for short critical sections where the expected wait time is brief.
+A spin lock is a type of lock used in computer programming to protect shared resources.
+It uses busy-waiting, where a thread continuously checks for the availability of the lock until it can acquire it. Spin locks are suitable for short critical sections where the expected wait time is brief.
 
 #  What is a smart time scheduler and its use cases compared to a classic implementation of time sharing
 
-A smart time scheduler is an advanced scheduling algorithm that efficiently manages system resources. It offers improved resource utilization, system responsiveness, and overall performance compared to classic time sharing.
+A smart time scheduler is an advanced scheduling algorithm that efficiently manages system resources.
+It offers improved resource utilization, system responsiveness, and overall performance compared to classic time sharing.

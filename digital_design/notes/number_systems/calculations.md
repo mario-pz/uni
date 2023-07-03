@@ -95,9 +95,9 @@ To add two octal numbers together, follow these steps:
 35+46=63
 ```
 
-## Octal Subtraction
+# Octal Subtraction
 
-### Instruction:
+# Instruction:
 To subtract one octal number from another, follow these steps:
 
 1. Start from the rightmost digits of the two octal numbers.
@@ -106,7 +106,7 @@ To subtract one octal number from another, follow these steps:
 4. If the difference is negative, borrow 1 from the next left digit, which is equivalent to adding 8 to the current digit.
 5. Move to the next digit position to the left and repeat steps 2-4 until all digits have been subtracted.
 
-#### Example:
+# Example:
 ```
  35
 -46
@@ -114,9 +114,9 @@ To subtract one octal number from another, follow these steps:
 -11
 ```
 
-## Octal Multiplication
+# Octal Multiplication
 
-### Instruction:
+# Instruction:
 To multiply two octal numbers together, follow these steps:
 
 1. Start from the rightmost digit of the second octal number.
@@ -126,7 +126,7 @@ To multiply two octal numbers together, follow these steps:
 5. Repeat steps 2-4 for each digit of the second octal number.
 6. Add all the products obtained to get the final result.
 
-#### Example:
+# Example:
 ```
   35
 x 46

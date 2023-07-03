@@ -39,8 +39,8 @@ To solve this kind of exercises you need to follow the bellow priority
 
 ## De Morgan's Law
 
-NOT(A+B) = A' * B'
-NOT (A * B)= A' + B'
+NOT (A+B) = A' * B'
+NOT (A * B = A' + B'
 
 ## Examples
 
@@ -110,7 +110,8 @@ Y = A * A'
 
 ## Redundancy Theorem
 
-The redundancy theorem in Boolean algebra states that in an expression of the form A + AB or A(A + B), the second term (AB or A + B) is redundant and can be omitted.
+The redundancy theorem in Boolean algebra states that in an expression of the form
+A + AB or A(A + B), the second term (AB or A + B) is redundant and can be omitted.
 
 (redundant = no longer useful)
 
