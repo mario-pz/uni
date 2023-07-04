@@ -4,18 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "9af8c5efd660f2f7",
+        "id": "05d3cddfa154e3ff",
         "type": "tabs",
         "children": [
           {
-            "id": "630652bed79fdb78",
+            "id": "1517984da50e1b84",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "digital_design/exam/Exam.md",
-                "mode": "source",
-                "source": false
+                "file": "digital_design/assets/Screenshot 2023-03-25 at 11.16.23 PM.png"
+              }
+            }
+          },
+          {
+            "id": "7b7ba79120d1aadf",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "digital_design/assets/sr_to_jk.png"
               }
             }
           }
@@ -86,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "digital_design/exam/Exam.md",
+                "file": "digital_design/assets/Screenshot 2023-03-25 at 11.16.23 PM.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "digital_design/exam/Exam.md",
+                "file": "digital_design/assets/Screenshot 2023-03-25 at 11.16.23 PM.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "digital_design/exam/Exam.md"
+                "file": "digital_design/assets/Screenshot 2023-03-25 at 11.16.23 PM.png"
               }
             }
           },
@@ -152,21 +160,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "630652bed79fdb78",
+  "active": "1517984da50e1b84",
   "lastOpenFiles": [
-    "digital_design/assets/Screenshot 2023-03-25 at 2.38.08 PM.png",
-    "digital_design/assets/Screenshot 2023-03-25 at 2.33.19 PM.png",
-    "digital_design/assets/Screenshot 2023-03-25 at 2.20.27 PM.png",
-    "digital_design/assets/Pasted image 20230401095043.png",
-    "digital_design/assets/Pasted image 20230401092946.png",
-    "digital_design/assets/karnaugh_map.png",
-    "digital_design/assets/karaugh_for_sr_to_t.png",
-    "digital_design/assets/karaugh_for_SR.png",
-    "digital_design/assets/jk_to_d.png",
-    "digital_design/assets/Screenshot 2023-03-25 at 11.16.23 PM.png",
-    "digital_design/assets/Screenshot 2023-03-25 at 11.10.51 PM.png",
-    "digital_design/assets/README.md",
+    "digital_design/notes/flipflops/conversions/sr_to_x.md",
+    "Pasted image 20230704103632.png",
+    "digital_design/notes/flipflops/conversions/d_to_x.md",
+    "digital_design/assets/d_to_t.png",
+    "digital_design/notes/flipflops/conversions/t_to_x.md",
+    "digital_design/assets/t_to_jk.png",
+    "digital_design/assets/t_to_sr.png",
+    "digital_design/assets/sr_to_t_drawing.png",
+    "digital_design/assets/sr_to_jk.png",
+    "digital_design/assets/d-flip-flop.png",
+    "digital_design/assets/sr_to_d.png",
     "digital_design/exam/Exam.md",
+    "digital_design/presentations/README.md",
+    "digital_design/assets/sr_to_jk_drawing.png",
+    "digital_design/assets/4bit-rightshift-sync.png",
+    "digital_design/assets/2-4-decoder-with-and.canvas",
+    "digital_design/assets/README.md",
     "operating_systems/notes/first/disk_scheduling.md",
     "operating_systems/exam/exam_2.md",
     "operating_systems/exam/exam_1.md",
@@ -190,10 +202,6 @@
     "cloud_computing/notes/hadoop_spark.md",
     "cloud_computing/notes/laws.md",
     "cloud_computing/notes/map_reduce.md",
-    "cloud_computing/notes/networking.md",
-    "cloud_computing/notes/README.md",
-    "cloud_computing/notes/virtualization_technologies.md",
-    "cloud_computing/presentations/README.md",
     "operating_systems/presentations/LS-II_Lecture#9.pdf",
     "operating_systems/presentations/LS-II_Lecture#6#7.pdf",
     "Excalidraw",

@@ -43,7 +43,9 @@ we want to convert it to a JK flip-flop.
 ![[karaugh_for_SR.png]]
 
 ### Step 5: Draw the circuit
-![[sr_to_jk_drawing.png]]
+
+
+![](../../../assets/sr_to_jk.png)
 
 # SR to T Flip Flop
 
