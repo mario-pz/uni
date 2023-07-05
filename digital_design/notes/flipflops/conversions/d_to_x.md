@@ -65,9 +65,7 @@ T = D
 
 ## Step 5: Draw the Circuit
 
-![](https://www.allaboutcircuits.com/uploads/articles/Figure_11_FFC4(1).jpg)
-
-
+![](../../../assets/d_to_t.png)
 
 # D to JK Flip-Flop Conversion
 

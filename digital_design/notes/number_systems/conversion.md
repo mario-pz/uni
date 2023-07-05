@@ -7,7 +7,6 @@
 1 * 2^3 + 0 * 2^2 + 1 * 2^1 + 0 * 2^0 = 8 + 0 + 2 + 0 = 10 (decimal)
 ```
 
-
 ### Binary to Octal: Convert the binary number to groups of three bits from right to left, then convert each group to its equivalent octal digit.
 
 #### Convert binary 1101011 to octal.
@@ -16,8 +15,6 @@ Grouping: 1 101 011
 Octal digits: 1 5 3
 Result: 1101011 (binary) = 153 (octal)
 ```
-
-
 ### Binary to Hexadecimal: Convert the binary number to groups of four bits from right to left, then convert each group to its equivalent hexadecimal digit.
 
 #### Convert binary 11011010 to hexadecimal.
@@ -27,7 +24,6 @@ Hexadecimal digits: D A
 Result: 11011010 (binary) = DA (hexadecimal)
 ```
 
-
 ## Octal
 ### Octal to Decimal: To convert an octal number to decimal, multiply each digit by the corresponding power of 8 and sum the results.
 
@@ -35,7 +31,6 @@ Result: 11011010 (binary) = DA (hexadecimal)
 ```
 3 * 8^2 + 4 * 8^1 + 7 * 8^0 = 192 + 32 + 7 = 231 (decimal)
 ```
-
 
 ### Octal to Binary: Convert each octal digit to its three-bit binary equivalent.
 

@@ -2,7 +2,7 @@
 # Read List
 Theory
 * [[CPU SCHEDULING]]
-* [[DEADLOCKS]]
+* [[deadlock]]
 * Threads
 * Shared Memory
 * Decentralized Memory

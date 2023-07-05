@@ -62,7 +62,7 @@ R = T'
 
 ## Step 5: Draw the Circuit
 
-A link to the circuit being used
+![](../../../assets/t_to_sr.png)
 
 # T to JK Flip-Flop Conversion
 
@@ -95,4 +95,4 @@ K = T'
 
 ## Step 5: Draw the Circuit
 
-A link to the circuit being used
+![](../../../assets/t_to_jk.png)
