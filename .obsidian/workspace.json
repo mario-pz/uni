@@ -11,9 +11,11 @@
             "id": "1517984da50e1b84",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "digital_design/assets/Screenshot 2023-03-25 at 11.16.23 PM.png"
+                "file": "digital_design/notes/boolean_alg/README.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -94,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "digital_design/assets/Screenshot 2023-03-25 at 11.16.23 PM.png",
+                "file": "digital_design/notes/boolean_alg/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "digital_design/assets/Screenshot 2023-03-25 at 11.16.23 PM.png",
+                "file": "digital_design/notes/boolean_alg/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "digital_design/assets/Screenshot 2023-03-25 at 11.16.23 PM.png"
+                "file": "digital_design/notes/boolean_alg/README.md"
               }
             }
           },
@@ -162,21 +164,26 @@
   },
   "active": "1517984da50e1b84",
   "lastOpenFiles": [
+    "digital_design/notes/boolean_alg/sum_of_product.md",
+    "digital_design/notes/karnaugh/examples.md",
+    "digital_design/notes/boolean_alg/product_of_sum.md",
     "digital_design/notes/flipflops/conversions/sr_to_x.md",
-    "Pasted image 20230704103632.png",
-    "digital_design/notes/flipflops/conversions/d_to_x.md",
-    "digital_design/assets/d_to_t.png",
+    "digital_design/notes/flipflops/conversions/jk_to_x.md",
     "digital_design/notes/flipflops/conversions/t_to_x.md",
-    "digital_design/assets/t_to_jk.png",
-    "digital_design/assets/t_to_sr.png",
-    "digital_design/assets/sr_to_t_drawing.png",
-    "digital_design/assets/sr_to_jk.png",
-    "digital_design/assets/d-flip-flop.png",
-    "digital_design/assets/sr_to_d.png",
+    "digital_design/notes/flipflops/conversions/d_to_x.md",
+    "digital_design/notes/boolean_alg/exercises.md",
     "digital_design/exam/Exam.md",
+    "digital_design/assets/Screenshot 2023-03-25 at 2.48.45 PM.png",
+    "digital_design/assets/Screenshot 2023-03-25 at 2.49.08 PM.png",
+    "digital_design/assets/mg.png",
+    "digital_design/assets/4bit_parallel_adder.png",
+    "digital_design/assets/master_slave_jk.png",
+    "Screenshot 2023-07-04 at 11.21.10 AM.png",
+    "digital_design/assets/right_to_left_shifter_4bit.png",
+    "digital_design/assets/synchronous_leftright.png",
+    "digital_design/assets/positive-carry-4bit.png",
+    "digital_design/assets/fa.png",
     "digital_design/presentations/README.md",
-    "digital_design/assets/sr_to_jk_drawing.png",
-    "digital_design/assets/4bit-rightshift-sync.png",
     "digital_design/assets/2-4-decoder-with-and.canvas",
     "digital_design/assets/README.md",
     "operating_systems/notes/first/disk_scheduling.md",
@@ -198,10 +205,6 @@
     "operating_systems/exam/Notes.md",
     "operating_systems/notes/first",
     "operating_systems/notes/first.md",
-    "cloud_computing/notes/cloud_solutions.md",
-    "cloud_computing/notes/hadoop_spark.md",
-    "cloud_computing/notes/laws.md",
-    "cloud_computing/notes/map_reduce.md",
     "operating_systems/presentations/LS-II_Lecture#9.pdf",
     "operating_systems/presentations/LS-II_Lecture#6#7.pdf",
     "Excalidraw",

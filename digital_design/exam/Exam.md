@@ -1,43 +1,41 @@
-(Θέματα Ευστ)
-### 1 Να μετατραπεί στο δεκαεξαδικό και στο οκταδικό σύστμα ο δυαδικός 0.10111101011
+# Convert Decimal to Hex and Octal 
 
-Για να μετατρέψουμε τον δυαδικό αριθμό 0.10111101011 στο δεκαεξαδικό και στο οκταδικό σύστημα, πρέπει να κάνουμε τις εξής βήματα:
+```
+0.10111101011
+```
 
-Δυαδικός αριθμός: 0.10111101011
-
-Μετατροπή σε Οκταδικό:
+## Octal:
 Συμπληρώνουμε με μηδενικά τον αριθμό ώστε να έχει ομάδες των 3 ψηφίων από το δεκαδικό σημείο και προς τα δεξιά:
 
+```
 0.101 111 010 110
+```
 
-Μετατρέπουμε κάθε ομάδα στον αντίστοιχο οκταδικό αριθμό:
-
+```
 (101) 2 = (5) 8
 (111) 2 = (7) 8
 (010) 2 = (2) 8
 (110) 2 = (6) 8
+0.5726
+```
 
-Έτσι, ο αριθμός στο οκταδικό σύστημα είναι: 0.5726
+## Hex:
+Cut in Members of 4
 
-Μετατροπή σε Δεκαεξαδικό:
-Συμπληρώνουμε με μηδενικά τον αριθμό ώστε να έχει ομάδες των 4 ψηφίων από το δεκαδικό σημείο και προς τα δεξιά:
 
+```
 0.1011 1101 0110
+```
 
-Μετατρέπουμε κάθε ομάδα στον αντίστοιχο δεκαεξαδικό αριθμό:
-
+```
 (1011) 2 = (B) 16
 (1101) 2 = (D) 16
 (0110) 2 = (6)  16
 
-Έτσι, ο αριθμός στο δεκαεξαδικό σύστημα είναι: 0.BD6
+0.BD6
+```
 
-Συνοψίζοντας, ο δυαδικός αριθμός 0.10111101011 μετατρέπεται σε:
-
-Οκταδικό: 0.5726
-Δεκαεξαδικό: 0.BD6
-
-### 2
+# Solve the below k-map
 
 |00|01|11|10|
 |---|---|---|---|
@@ -45,11 +43,6 @@
 |0|1|1|1|
 |1|1|1|0|
 |1|1|0|0|
-
-#### Groups
-* xz'
-* yw
-* x'z
 
 ```
 f(x, y, z, w) = xz' + yw + x'z
@@ -85,22 +78,19 @@ f(x, y, z, w) = xz' + yw + x'z
 
 ![](../assets/sr_to_d.png)
 
-![](../assets/master_slave_jk.png)
+![](../assets/sr_to_jk.png)
 
 #### 8. Make the waves table for the below . Assume z0=z1=0.
 
 ![[z0-z1-task-1.png]]
 
-| Clock | D0 | Q0 | D1 | Q1| 
-|---|---|---|---|---|
-| 1 | 1 | 1 | 0 | 0 |
-| 2 | 1 | 1 | 1 | 1 |
-
-
-# Give the outputs of the flip-flops of the circuit given below during the successive application of two clock pulses. Assume that initially Q0=Q1=0.
-
-
+(I am not very confident with Z1)
+![[Screenshot 2023-07-04 at 11.21.10 AM.png]]
 
 # Make the appropriate connections to the D flip-flops given below to form a left-to-right 4-bit shifter.
 
 ![](../assets/synchronous_leftright.png)
+
+# Make the appropriate connections to the D flip-flops given below to form a right-to-left 4-bit shifter.
+
+![](../../assets/right_to_left_shifter_4bit.png)
